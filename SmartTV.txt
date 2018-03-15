@@ -57,6 +57,15 @@ smartclip.net
 smartclip.com
 
 
+# philips
+
+deviceportal.nettvservices.com
+epg.corio.com
+legacyportal.nettvservices.com
+nettv.corio.com
+www.ecdinterface.philips.com
+
+
 # samsung
 
 device-metrics-us.amazon.com
