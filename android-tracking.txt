@@ -21,7 +21,14 @@ uop.umeng.com
 alog.umeng.com
 alog.umengcloud.com
 api.branch.io
+cp.pushwoosh.com
 
 www.googleadservices.com
 googleads.g.doubleclick.net
 securepubads.g.doubleclick.net
+
+# snapchat ads and tracking
+gcs.sc-cdn.net
+sc-analytics.appspot.com
+app-analytics.snapchat.com
+adserver.snapads.com
