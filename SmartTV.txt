@@ -194,6 +194,7 @@ api.distribution.hulu.com
 api.nfl.com
 apicache.vudu.com
 tv.deezer.com
+cdns-content.dzcdn.net
 
 # Sharp Smart TV using Opera OS (thanks to sml156)
 # time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
