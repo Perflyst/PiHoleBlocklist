@@ -12,7 +12,7 @@ settings.crashlytics.com
 ads.twitter.com
 app-measurement.com
 events.appsflyer.com
-stats.appsflyer.com
+stats.appsflyer.coms
 t.appsflyer.com
 log.musical.ly
 live.direct.ly
@@ -26,9 +26,17 @@ cp.pushwoosh.com
 www.googleadservices.com
 googleads.g.doubleclick.net
 securepubads.g.doubleclick.net
+ssl.google-analytics.com
+android.clients.google.com
+clients1.google.com
+
+m.quantcount.com
+app.adjust.com
+utraffic.engine.adglare.net
 
 # snapchat ads and tracking
 gcs.sc-cdn.net
 sc-analytics.appspot.com
 app-analytics.snapchat.com
 adserver.snapads.com
+ 
