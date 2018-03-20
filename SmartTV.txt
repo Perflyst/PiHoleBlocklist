@@ -156,6 +156,13 @@ oempprd.samsungcloudsolution.com
 time.samsungcloudsolution.com
 lcprd1.samsungcloudsolution.net
 
+ads.samsungads.com
+configprd.samsungcloudsolution.net
+log-ingestion.samsungacr.com
+ypu.samsungelectronics.com
+osb-apps.samsungqbe.com
+osb-krsvc.samsungqbe.com
+musicid.samsungcloudsolution.com
 
 # Other useless connections from Smart-TV
 
@@ -167,12 +174,26 @@ googleads.g.doubleclick.net
 hbbtv.redbutton.de
 hbbtv.zdf.de
 drscdn.500px.org
+tv-static.scdn.co
 
 # Netflix
+secure.netflix.com                     # this no doubt breaks netflix everywhere, but I don't use it anyway
 api-global.netflix.com
 ichnaea.netflix.com
 customerevents.netflix.com
 appboot.netflix.com
+nrdp.nccp.netflix.com
+
+#spotify
+api-tv.spotify.com
+
+# Hulu
+api.distribution.hulu.com
+
+#other apps
+api.nfl.com
+apicache.vudu.com
+tv.deezer.com
 
 # Sharp Smart TV using Opera OS (thanks to sml156)
 # time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
