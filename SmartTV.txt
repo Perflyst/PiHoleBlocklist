@@ -163,6 +163,7 @@ ypu.samsungelectronics.com
 osb-apps.samsungqbe.com
 osb-krsvc.samsungqbe.com
 musicid.samsungcloudsolution.com
+cpu.samsungelectronics.com
 
 # Other useless connections from Smart-TV
 
