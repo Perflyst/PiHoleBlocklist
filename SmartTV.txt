@@ -178,20 +178,20 @@ drscdn.500px.org
 tv-static.scdn.co
 
 # Netflix
-secure.netflix.com                     # this no doubt breaks netflix everywhere, but I don't use it anyway
+#secure.netflix.com                     # breaks netflix, some user use it
 api-global.netflix.com
 ichnaea.netflix.com
 customerevents.netflix.com
 appboot.netflix.com
 nrdp.nccp.netflix.com
 
-#spotify
+# Spotify
 api-tv.spotify.com
 
 # Hulu
 api.distribution.hulu.com
 
-#other apps
+# other apps
 api.nfl.com
 apicache.vudu.com
 tv.deezer.com
