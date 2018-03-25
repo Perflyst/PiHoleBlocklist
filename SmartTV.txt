@@ -38,6 +38,7 @@ b02.black.ndmdhs.com
 call.me.sel.sony.com
 ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
 ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+flingo.tv
 
 
 # LG
@@ -176,6 +177,12 @@ hbbtv.redbutton.de
 hbbtv.zdf.de
 drscdn.500px.org
 tv-static.scdn.co
+api.nfl.com
+apicache.vudu.com
+tv.deezer.com
+cdns-content.dzcdn.net
+nbc-jite.nbcuni.com
+
 
 # Netflix
 #secure.netflix.com                     # breaks netflix, some user use it
@@ -190,12 +197,6 @@ api-tv.spotify.com
 
 # Hulu
 api.distribution.hulu.com
-
-# other apps
-api.nfl.com
-apicache.vudu.com
-tv.deezer.com
-cdns-content.dzcdn.net
 
 # Sharp Smart TV using Opera OS (thanks to sml156)
 # time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
