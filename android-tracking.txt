@@ -22,13 +22,22 @@ alog.umeng.com
 alog.umengcloud.com
 api.branch.io
 cp.pushwoosh.com
+ws.tapjoyads.com
+connect.tapjoy.com
+ads.api.vungle.com
+adlog.flurry.com
+data.flurry.com
+adc3-launch.adcolony.com
+supersonicads-a.akamaihd.net
 
 www.googleadservices.com
 googleads.g.doubleclick.net
 securepubads.g.doubleclick.net
+ad.doubleclick.net
 ssl.google-analytics.com
 android.clients.google.com
 clients1.google.com
+adservice.google.de
 
 m.quantcount.com
 app.adjust.com
@@ -36,7 +45,7 @@ utraffic.engine.adglare.net
 
 # snapchat ads and tracking
 gcs.sc-cdn.net
+cf-st.sc-cdn.net
 sc-analytics.appspot.com
 app-analytics.snapchat.com
 adserver.snapads.com
- 
