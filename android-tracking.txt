@@ -27,8 +27,13 @@ connect.tapjoy.com
 ads.api.vungle.com
 adlog.flurry.com
 data.flurry.com
+wd.adcolony.com
+events3.adcolony.com
+events3alt.adcolony.com
 adc3-launch.adcolony.com
 supersonicads-a.akamaihd.net
+i.w.inmobi.com
+sdktm.w.inmobi.com
 
 www.googleadservices.com
 googleads.g.doubleclick.net
