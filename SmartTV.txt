@@ -185,11 +185,12 @@ nbc-jite.nbcuni.com
 
 
 # Netflix
-#secure.netflix.com                     # breaks netflix, some user use it
-api-global.netflix.com
-ichnaea.netflix.com
+# secure, api-global, ichnaea, and appboot break Netflix
+#secure.netflix.com                   
+#api-global.netflix.com
+#ichnaea.netflix.com
 customerevents.netflix.com
-appboot.netflix.com
+#appboot.netflix.com
 nrdp.nccp.netflix.com
 
 # Spotify
