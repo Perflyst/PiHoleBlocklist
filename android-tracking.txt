@@ -34,6 +34,10 @@ adc3-launch.adcolony.com
 supersonicads-a.akamaihd.net
 i.w.inmobi.com
 sdktm.w.inmobi.com
+ads.mopub.com
+api.gameanalytics.com
+med.heyzap.com
+api.uca.cloud.unity3d.com
 
 www.googleadservices.com
 googleads.g.doubleclick.net
@@ -43,6 +47,7 @@ ssl.google-analytics.com
 android.clients.google.com
 clients1.google.com
 adservice.google.de
+ade.googlesyndication.com
 
 m.quantcount.com
 app.adjust.com
