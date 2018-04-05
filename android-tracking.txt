@@ -38,6 +38,9 @@ ads.mopub.com
 api.gameanalytics.com
 med.heyzap.com
 api.uca.cloud.unity3d.com
+gate.hockeyapp.net
+sdk.hockeyapp.net
+engine.fyber.com
 
 www.googleadservices.com
 googleads.g.doubleclick.net
@@ -59,3 +62,8 @@ cf-st.sc-cdn.net
 sc-analytics.appspot.com
 app-analytics.snapchat.com
 adserver.snapads.com
+euw.adserver.snapads.com
+euc.adserver.snapads.com
+usc.adserver.snapads.com
+ase.adserver.snapads.com
+www.leanplum.com
