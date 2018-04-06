@@ -4,6 +4,7 @@
 # Android 6 on Huawei
 
 graph.facebook.com
+graph.instagram.com
 
 e.crashlytics.com
 reports.crashlytics.com
@@ -51,6 +52,7 @@ android.clients.google.com
 clients1.google.com
 adservice.google.de
 ade.googlesyndication.com
+id.google.de
 
 m.quantcount.com
 app.adjust.com

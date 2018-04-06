@@ -166,6 +166,29 @@ osb-krsvc.samsungqbe.com
 musicid.samsungcloudsolution.com
 cpu.samsungelectronics.com
 
+
+# HBBTV
+
+hbbtv.redbutton.de
+hbbtv.zdf.de
+stats.hbbtv.smartclip.net
+scheduler.hbbtv.smartclip.net
+hbbtv-1.eurosport.com
+hbbtv-extern-fe01.sim-technik.de
+hbbtv-track.redbutton.de
+hbbtv.kabeleins.de
+hbbtv.prosieben.de
+hbbtv.qvc.de
+hbbtv.redbutton.de
+hbbtv.rtl2.de
+hbbtv.sat1.de
+hbbtv.sixx.de
+hbbtv.zdf.de
+hbbtv01p.anixe.net
+hbbtvapp.sonnenklar.tv
+cdn.hbbtv.smartclip.net
+
+
 # Other useless connections from Smart-TV
 
 get.geo.opera.com
@@ -173,8 +196,9 @@ xml.opera.com
 itv.ard.de
 cert-test.sandbox.google.com
 googleads.g.doubleclick.net
-hbbtv.redbutton.de
-hbbtv.zdf.de
+redbutton.sim-technik.de
+redbutton-lb-prod.redbutton.de
+redbutton-adproxy-lb-prod.redbutton.de
 drscdn.500px.org
 tv-static.scdn.co
 api.nfl.com
@@ -182,6 +206,14 @@ apicache.vudu.com
 tv.deezer.com
 cdns-content.dzcdn.net
 nbc-jite.nbcuni.com
+stats-irl.sxp.smartclip.net
+start.digitaltext.rtl.de
+script.ioam.de
+itv.ard.de
+de.ioam.de
+database01p.anixe.net
+cdn.smartclip.net
+ad.71i.de
 
 
 # Netflix
