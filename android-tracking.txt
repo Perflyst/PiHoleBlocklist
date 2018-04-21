@@ -2,9 +2,16 @@
 
 # LineageOS 14.1
 # Android 6 on Huawei
+# Android 8 OnePlus
+# iPhone 6
 
 graph.facebook.com
+b-graph.facebook.com
+a-graph.facebook.com
 graph.instagram.com
+b-api.facebook.com
+edge-mqtt.facebook.com
+mqtt-mini.facebook.com
 
 e.crashlytics.com
 reports.crashlytics.com
@@ -42,6 +49,17 @@ api.uca.cloud.unity3d.com
 gate.hockeyapp.net
 sdk.hockeyapp.net
 engine.fyber.com
+trk.pinterest.com
+graph.accountkit.com
+1681.engine.mobileapptracking.com
+engine.mobileapptracking.com
+mobileapptracking.com
+config.ioam.de
+logs.locarta.co
+postback.pointwise.co
+dev.appboy.com
+z.moatads.com
+appspot-preview.l.google.com
 
 www.googleadservices.com
 googleads.g.doubleclick.net
@@ -53,6 +71,13 @@ clients1.google.com
 adservice.google.de
 ade.googlesyndication.com
 id.google.de
+
+# apple
+stats.gc.apple.com
+iadsdk.apple.com
+
+# huawei
+servicesupport.hicloud.com
 
 m.quantcount.com
 app.adjust.com
@@ -69,3 +94,13 @@ euc.adserver.snapads.com
 usc.adserver.snapads.com
 ase.adserver.snapads.com
 www.leanplum.com
+tr.snapchat.com
+
+# whatsapp
+crashlogs.whatsapp.net
+
+# quizduell
+rt.applovin.com
+d.applvn.com
+a.applvn.com
+applvn.com
