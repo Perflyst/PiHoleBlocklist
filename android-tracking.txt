@@ -85,7 +85,6 @@ utraffic.engine.adglare.net
 
 # snapchat ads and tracking
 gcs.sc-cdn.net
-cf-st.sc-cdn.net
 sc-analytics.appspot.com
 app-analytics.snapchat.com
 adserver.snapads.com
