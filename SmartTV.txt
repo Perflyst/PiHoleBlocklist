@@ -177,7 +177,6 @@ cert-test.sandbox.google.com
 database01p.anixe.net
 de.ioam.de
 drscdn.500px.org
-get.geo.opera.com
 googleads.g.doubleclick.net
 itv.ard.de
 itv.ard.de
