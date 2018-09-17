@@ -19,7 +19,7 @@ usage-eu-fy2015.myhomescreen.tv
 usage-eu-fy2017.myhomescreen.tv
 usage-us-fy2015.myhomescreen.tv
 usage-us-fy2017.myhomescreen.tv
-vcs.vdspf.com
+#vcs.vdspf.com  // if blocked, notified of new firmware but unable to download/install
 x2.vindicosuite.com
 
 
