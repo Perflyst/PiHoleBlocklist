@@ -8,11 +8,11 @@ cert-test.sandbox.google.com
 collect-eu-fy2015.myhomescreen.tv
 collect-eu-fy2017.myhomescreen.tv
 collect-us-fy2016.myhomescreen.tv
-mhc-ajax-eu.myhomescreen.tv
+#mhc-ajax-eu.myhomescreen.tv  //  if blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
 mhc-ajax-us.myhomescreen.tv
 mhc-sec-eu.myhomescreen.tv
 mhc-sec-us.myhomescreen.tv
-mhc-xpana-eu.myhomescreen.tv
+#mhc-xpana-eu.myhomescreen.tv  //  if blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
 mhc-xpana-us.myhomescreen.tv
 occ-0-399-783.1.nflxso.net
 usage-eu-fy2015.myhomescreen.tv
