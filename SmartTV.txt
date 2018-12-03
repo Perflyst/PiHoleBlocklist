@@ -98,6 +98,7 @@ log-1.samsungacr.com
 log-2.samsungacr.com
 log-3.samsungacr.com
 log-ingestion.samsungacr.com
+log-ingestion-eu.samsungacr.com
 log.internetat.tv
 multiscreen.samsung.com
 musicid.samsungcloudsolution.com
