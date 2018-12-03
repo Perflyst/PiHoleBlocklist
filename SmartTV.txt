@@ -137,7 +137,7 @@ sso.internetat.tv
 syncplusconfig.s3.amazonaws.com
 targeted-config-test.samsungacr.com
 test.samsungrm.net
-time.samsungcloudsolution.com
+#time.samsungcloudsolution.com // if blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
 upu.samsungelectronics.com
 us-api.samsungyosemite.com
 vd.emp.prd.s3.amazonaws.com
