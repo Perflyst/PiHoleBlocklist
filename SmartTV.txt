@@ -110,6 +110,7 @@ oempprd.samsungcloudsolution.net
 openapi.samsung.com
 osb-apps.samsungqbe.com
 osb-krsvc.samsungqbe.com
+osb-eusvc.samsungqbe.com
 osb.samsungqbe.com
 otnprd10.samsungcloudsolution.net
 otnprd11.samsungcloudsolution.net
