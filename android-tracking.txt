@@ -5,6 +5,7 @@
 # Android 8 OnePlus
 # iPhone 6
 
+# Facebook
 graph.facebook.com
 b-graph.facebook.com
 a-graph.facebook.com
@@ -13,10 +14,12 @@ b-api.facebook.com
 edge-mqtt.facebook.com
 mqtt-mini.facebook.com
 
+# Crashlytics
 e.crashlytics.com
 reports.crashlytics.com
 settings.crashlytics.com
 
+# Uncatagorized
 ads.twitter.com
 app-measurement.com
 events.appsflyer.com
@@ -60,30 +63,29 @@ postback.pointwise.co
 dev.appboy.com
 z.moatads.com
 appspot-preview.l.google.com
+m.quantcount.com
+app.adjust.com
+utraffic.engine.adglare.net
 
+# Google
 www.googleadservices.com
 googleads.g.doubleclick.net
 securepubads.g.doubleclick.net
 ad.doubleclick.net
 ssl.google-analytics.com
-# android.clients.google.com # needed to reach google play store with android 8 and newer
 clients1.google.com
 adservice.google.de
 ade.googlesyndication.com
 id.google.de
 
-# apple
+# Apple
 stats.gc.apple.com
 iadsdk.apple.com
 
-# huawei
+# Huawei
 servicesupport.hicloud.com
 
-m.quantcount.com
-app.adjust.com
-utraffic.engine.adglare.net
-
-# snapchat ads and tracking
+# Snapchat ads and tracking
 gcs.sc-cdn.net
 sc-analytics.appspot.com
 app-analytics.snapchat.com
@@ -92,14 +94,18 @@ euw.adserver.snapads.com
 euc.adserver.snapads.com
 usc.adserver.snapads.com
 ase.adserver.snapads.com
-www.leanplum.com
 tr.snapchat.com
 
-# whatsapp
+# Whatsapp
 crashlogs.whatsapp.net
 
-# quizduell
+# Quizduell
 rt.applovin.com
 d.applvn.com
 a.applvn.com
 applvn.com
+
+# Leanplum
+leanplum.com
+www.leanplum.com
+api.leanplum.com
