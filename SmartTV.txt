@@ -196,11 +196,11 @@ xml.opera.com
 
 
 # Netflix
-# secure, api-global, ichnaea, and appboot break Netflix
+# secure, api-global, and appboot break Netflix
 #secure.netflix.com                   
 #api-global.netflix.com
-#ichnaea.netflix.com
 #appboot.netflix.com
+ichnaea.netflix.com
 customerevents.netflix.com
 nrdp.nccp.netflix.com
 
