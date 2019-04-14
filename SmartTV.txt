@@ -167,7 +167,9 @@ hbbtv01p.anixe.net
 hbbtvapp.sonnenklar.tv
 scheduler.hbbtv.smartclip.net
 stats.hbbtv.smartclip.net
-
+hbbtv.superrtl.de
+p-hbbtv.superrtl.de
+hbbtv.3sat.de
 
 # Other useless connections from Smart-TV
 ad.71i.de
