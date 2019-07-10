@@ -2,7 +2,7 @@
 # Please help to collect domains!
 # It could be that the TV does not receive any more updates or other services no longer work. Please report such an incident.
 
-# panasonic viera & panny tv
+# Panasonic Viera & panny tv
 0077777700140002.myhomescreen.tv
 cert-test.sandbox.google.com
 
@@ -43,11 +43,11 @@ mhc-sec-us.myhomescreen.tv
 #mhc-xpana-eu.myhomescreen.tv  //  if blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
 mhc-xpana-us.myhomescreen.tv
 occ-0-399-783.1.nflxso.net
-#vcs.vdspf.com  // if blocked, notified of new firmware but unable to download/install
+#vcs.vdspf.com  //  if blocked, notified of new firmware but unable to download/install
 x2.vindicosuite.com
 
 
-# sony bavaria
+# Sony Bravia
 # needed for applications
 # needed for applications, if blocked error "no internet connection"
 #applicast.ga.sony.net
@@ -79,7 +79,7 @@ us.rdx2.lgtvsdp.com
 yumenetworks.com
 
 
-# philips
+# Philips
 deviceportal.nettvservices.com
 epg.corio.com
 legacyportal.nettvservices.com
@@ -87,7 +87,7 @@ nettv.corio.com
 www.ecdinterface.philips.com
 
 
-# samsung
+# Samsung
 abtauthprd.samsungcloudsolution.com
 acr0.samsungcloudsolution.com
 ad.samsungadhub.com
