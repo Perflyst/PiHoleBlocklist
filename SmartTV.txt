@@ -107,6 +107,7 @@ d1jwpcr0q4pcq0.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net
 d2tnx644ijgq6i.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
+d37ju0xanoz6gh.cloudfront.net
 dev-multiscreen.samsung.com
 device-metrics-us.amazon.com
 fkp.samsungcloudsolution.com
@@ -176,6 +177,8 @@ upu.samsungelectronics.com
 zpu.samsungelectronics.com
 xpu.samsungelectronics.com
 ypu.samsungelectronics.com
+vd.contents.prod.eu.s3.amazonaws.com
+log-ingestion-eu.samsungacr.com
 
 # HBBTV
 cdn.hbbtv.smartclip.net
