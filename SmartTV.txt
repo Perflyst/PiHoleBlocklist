@@ -206,7 +206,7 @@ hbbtv.3sat.de
 # Other useless connections from Smart-TV
 ad.71i.de
 api.nfl.com
-apicache.vudu.com
+# apicache.vudu.com # needed for vudu app see issue22
 cdn.smartclip.net
 cdns-content.dzcdn.net
 cert-test.sandbox.google.com
