@@ -94,7 +94,6 @@ ad.samsungadhub.com
 ads.samsungads.com
 amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
-auth.samsungosp.com
 az43064.vo.msecnd.net
 cdn.samsungcloudsolution.com
 cdn.samsungcloudsolution.net
@@ -152,7 +151,6 @@ samsungacr.com
 samsungadhub.com
 samsungcloudsolution.com
 samsungcloudsolution.net
-samsungosp.com
 samsungotn.net
 samsungqbe.com
 samsungrm.net
