@@ -62,7 +62,6 @@ flingo.tv
 sonybivstatic-a.akamaihd.net
 ssm1.internet.sony.tv
 facemap.foldlife.net
-static-cdn.jtvnw.net
 bdcore-apr-lb.bda.ndmdhs.com
 
 
