@@ -98,7 +98,7 @@ amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 #auth.samsungosp.com // if blocked, samsung accounts will fail to authenticate
 az43064.vo.msecnd.net
-cdn.samsungcloudsolution.com
+#cdn.samsungcloudsolution.com # ystem update check on Samsung UE40F5500
 cdn.samsungcloudsolution.net
 configprd.samsungcloudsolution.net
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
@@ -119,7 +119,7 @@ gld.samsungosp.com
 gpm.samsungqbe.com
 i-stream.pl
 infolink.pavv.co.k
-infolink.pavv.co.kr
+#infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
 lcprd1.samsungcloudsolution.net
 log-1.samsungacr.com
 log-2.samsungacr.com
@@ -155,7 +155,7 @@ samsungadhub.com
 samsungcloudsolution.com
 samsungcloudsolution.net
 #samsungosp.com
-samsungotn.net
+#samsungotn.net # system update check on Samsung UE65RU7455
 samsungqbe.com
 samsungrm.net
 sas.samsungcloudsolution.com
