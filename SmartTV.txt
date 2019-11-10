@@ -217,8 +217,7 @@ de.ioam.de
 #drscdn.500px.org # blocks 500px on desktop
 geo.opera.com
 googleads.g.doubleclick.net
-itv.ard.de
-itv.ard.de
+# itv.ard.de # ARD media lib - HBBTV 
 nbc-jite.nbcuni.com
 redbutton-adproxy-lb-prod.redbutton.de
 redbutton-lb-prod.redbutton.de
