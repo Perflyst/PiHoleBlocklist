@@ -82,11 +82,12 @@ yumenetworks.com
 
 
 # Philips
-deviceportal.nettvservices.com
-epg.corio.com
+#deviceportal.nettvservices.com # needed for apps
+#epg.corio.com # needed for apps
 legacyportal.nettvservices.com
 nettv.corio.com
 www.ecdinterface.philips.com
+ad.nettvservices.com
 
 
 # Samsung
