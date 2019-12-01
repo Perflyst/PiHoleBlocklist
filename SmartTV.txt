@@ -69,7 +69,7 @@ bdcore-apr-lb.bda.ndmdhs.com
 ad.lgappstv.com
 ibis.lgappstv.com
 lgad.cjpowercast.com.edgesuite.net
-ngfts.lge.com
+# ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
 smartclip.com
 smartclip.net
 smartshare.lgtvsdp.com
