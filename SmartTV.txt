@@ -86,7 +86,7 @@ yumenetworks.com
 #epg.corio.com # needed for apps
 legacyportal.nettvservices.com
 nettv.corio.com
-www.ecdinterface.philips.com
+#www.ecdinterface.philips.com # Philips Hue Bridge
 ad.nettvservices.com
 
 
