@@ -42,7 +42,6 @@ mhc-sec-eu.myhomescreen.tv
 mhc-sec-us.myhomescreen.tv
 #mhc-xpana-eu.myhomescreen.tv  //  if blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
 mhc-xpana-us.myhomescreen.tv
-occ-0-399-783.1.nflxso.net
 #vcs.vdspf.com  //  if blocked, notified of new firmware but unable to download/install
 x2.vindicosuite.com
 
