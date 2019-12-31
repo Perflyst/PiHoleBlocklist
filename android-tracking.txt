@@ -86,7 +86,7 @@ iadsdk.apple.com
 servicesupport.hicloud.com
 
 # Snapchat ads and tracking
-gcs.sc-cdn.net
+# gcs.sc-cdn.net # needed to send snaps
 sc-analytics.appspot.com
 app-analytics.snapchat.com
 adserver.snapads.com
