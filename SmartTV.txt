@@ -182,6 +182,8 @@ xpu.samsungelectronics.com
 ypu.samsungelectronics.com
 vd.contents.prod.eu.s3.amazonaws.com
 log-ingestion-eu.samsungacr.com
+osb-ussvc.samsungqbe.com
+otn.samsungcloudcdn.com
 
 # HBBTV
 cdn.hbbtv.smartclip.net
