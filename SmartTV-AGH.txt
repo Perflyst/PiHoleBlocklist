@@ -45,7 +45,6 @@
 ||ibs.lgappstv.com^
 ||info.lgsmartad.com^
 ||lgtvsdp.com^
-||rdx2.lgtvsdp.com^
 ||yumenetworks.com^
 ! For TVs that try to connect to several garbled letter combinations
 /^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?$/
@@ -184,7 +183,7 @@
 ||start.digitaltext.rtl.de^
 ||stats-irl.sxp.smartclip.net^
 ||tv-static.scdn.co^
-||tv.deezer.com^
+!tv.deezer.com # Breaks Deezer's smart-TV apps.
 ||xml.opera.com^
 
 ! Netflix
