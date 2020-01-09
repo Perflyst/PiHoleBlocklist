@@ -1,6 +1,9 @@
-# This is a blocklist to block smart tv's sending meta data at home.
-# Please help to collect domains!
-# It could be that the TV does not receive any more updates or other services no longer work. Please report such an incident.
+# Title: Perflyst's SmartTV Blocklist for Pi-hole
+# Version: 09January2020v1
+# Description: This is a blocklist to block smart-TVs sending metadata back home.
+# Please help with collecting domains!
+# It could occur that the TV fails to receive new updates or that other services no longer work. Please report such an incident.
+# Make sure to also use the extra RegEx list at https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/regex.list, which helps remove regional LG ad domains among other things.
 
 # Panasonic Viera & panny tv
 0077777700140002.myhomescreen.tv
@@ -36,11 +39,11 @@ usage-us-fy2018.myhomescreen.tv
 usage-us-fy2019.myhomescreen.tv
 
 
-#mhc-ajax-eu.myhomescreen.tv  //  if blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
+#mhc-ajax-eu.myhomescreen.tv  //  if blocked, unable to use smart-TV apps like Netflix, Amazon Video, etc., as TV calls home for connection check
 mhc-ajax-us.myhomescreen.tv
 mhc-sec-eu.myhomescreen.tv
 mhc-sec-us.myhomescreen.tv
-#mhc-xpana-eu.myhomescreen.tv  //  if blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
+#mhc-xpana-eu.myhomescreen.tv  //  if blocked, unable to use smart-TV apps like Netflix, Amazon Video, etc., as TV calls home for connection check
 mhc-xpana-us.myhomescreen.tv
 #vcs.vdspf.com  //  if blocked, notified of new firmware but unable to download/install
 x2.vindicosuite.com
@@ -103,7 +106,7 @@ cdn.samsungcloudsolution.net
 configprd.samsungcloudsolution.net
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 cpu.samsungelectronics.com
-d179kwmlpc4o47.cloudfront.ne
+d179kwmlpc4o47.cloudfront.net
 d179kwmlpc4o47.cloudfront.net
 d1jwpcr0q4pcq0.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net
@@ -118,7 +121,6 @@ game.internetat.tv
 gld.samsungosp.com
 gpm.samsungqbe.com
 i-stream.pl
-infolink.pavv.co.k
 #infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
 lcprd1.samsungcloudsolution.net
 log-1.samsungacr.com
@@ -210,7 +212,7 @@ hbbtv.3sat.de
 # Other useless connections from Smart-TV
 ad.71i.de
 api.nfl.com
-# apicache.vudu.com # needed for vudu app see issue22
+# apicache.vudu.com # needed for Vudu's app, see issue22
 cdn.smartclip.net
 cdns-content.dzcdn.net
 cert-test.sandbox.google.com
@@ -228,9 +230,8 @@ script.ioam.de
 start.digitaltext.rtl.de
 stats-irl.sxp.smartclip.net
 tv-static.scdn.co
-tv.deezer.com
+#tv.deezer.com # Breaks Deezer's smart-TV apps.
 xml.opera.com
-
 
 # Netflix
 # secure, api-global, and appboot break Netflix
