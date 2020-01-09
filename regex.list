@@ -1,10 +1,10 @@
 # Title: Perflyst's SmartTV Blocklist for Pi-hole - RegEx extension
-# Version: 09January2020v1-Alpha
+# Version: 09January2020v2-Alpha
 
 # LG
 (^|\.)ibs\.lgappstv\.com
 (^|\.)info\.lgsmartad\.com
-(^|\.)rdx2\.lgtvsdp\.com
+(^|\.)lgtvsdp\.com
 ^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?$
 
 # Other
