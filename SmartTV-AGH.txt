@@ -1,0 +1,210 @@
+[Adblock Plus 3.6]
+! Title: Perflyst and Dandelion Sprout's SmartTV Blocklist for AdGuard Home
+! Version: 09January2020v1-Beta
+! Description: This is a blocklist to block smart-TVs sending metadata back home.
+! Please help to collect domains!
+! It could occur that the TV fails to receive new updates or that other services no longer work. Please report such an incident.
+
+! Panasonic Viera & panny tv
+||cert-test.sandbox.google.com^
+
+||myhomescreen.tv^
+! If domains below are blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
+@@||mhc-ajax-eu.myhomescreen.tv^
+@@||mhc-xpana-eu.myhomescreen.tv^
+
+!vcs.vdspf.com  //  if blocked, notified of new firmware but unable to download/install
+||x2.vindicosuite.com^
+
+! Sony Bravia
+! needed for applications
+! needed for applications, if blocked error "no internet connection"
+!applicast.ga.sony.net
+!portal.store.sonyentertainmentnetwork.com
+||ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv^
+||ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv^
+||api-mf1.meta.ndmdhs.com^
+||b02.black.ndmdhs.com^
+||bravia.dl.playstation.net^
+||call.me.sel.sony.com^
+||flingo.tv^
+||sonybivstatic-a.akamaihd.net^
+||ssm1.internet.sony.tv^
+||facemap.foldlife.net^
+||bdcore-apr-lb.bda.ndmdhs.com^
+
+! LG
+||ad.lgappstv.com^
+||ibis.lgappstv.com^
+||lgad.cjpowercast.com.edgesuite.net^
+! ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
+||smartclip.com^
+||smartclip.net^
+||smartshare.lgtvsdp.com^
+||ad.lgsmartad.com^
+||ibs.lgappstv.com^
+||info.lgsmartad.com^
+||lgtvsdp.com^
+||rdx2.lgtvsdp.com^
+||yumenetworks.com^
+! For TVs that try to connect to several garbled letter combinations
+/^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?$/
+
+! Philips
+!deviceportal.nettvservices.com # needed for apps
+!epg.corio.com # needed for apps
+||legacyportal.nettvservices.com^
+||nettv.corio.com^
+!www.ecdinterface.philips.com # Philips Hue Bridge
+||ad.nettvservices.com^
+
+! Samsung
+||abtauthprd.samsungcloudsolution.com^
+||acr0.samsungcloudsolution.com^
+||ad.samsungadhub.com^
+||ads.samsungads.com^
+||amauthprd.samsungcloudsolution.com^
+||api-hub.samsungyosemite.com^
+!auth.samsungosp.com // if blocked, samsung accounts will fail to authenticate
+||az43064.vo.msecnd.net^
+!cdn.samsungcloudsolution.com # system update check on Samsung UE40F5500
+||cdn.samsungcloudsolution.net^
+||configprd.samsungcloudsolution.net^
+||Coordinator-Production-28516768.us-east-1.elb.amazonaws.com^
+||cpu.samsungelectronics.com^
+||d179kwmlpc4o47.cloudfront.net^
+||d1jwpcr0q4pcq0.cloudfront.net^
+||d1oxlq5h9kq8q5.cloudfront.net^
+||d2tnx644ijgq6i.cloudfront.net^
+||d3mjsomixevyw7.cloudfront.net^
+||d37ju0xanoz6gh.cloudfront.net^
+||dev-multiscreen.samsung.com^
+||device-metrics-us.amazon.com^
+||fkp.samsungcloudsolution.com^
+||fkp.samsungcloudsolution.net^
+||game.internetat.tv^
+||gld.samsungosp.com^
+||gpm.samsungqbe.com^
+||i-stream.pl^
+||infolink.pavv.co.kr^
+!infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
+||lcprd1.samsungcloudsolution.net^
+||log-1.samsungacr.com^
+||log-2.samsungacr.com^
+||log-3.samsungacr.com^
+||log-ingestion.samsungacr.com^
+||log-ingestion-eu.samsungacr.com^
+||log.internetat.tv^
+||multiscreen.samsung.com^
+||musicid.samsungcloudsolution.com^
+||notice.samsungcloudsolution.com^
+||noticecdn.samsungcloudsolution.com^
+||noticefile.samsungcloudsolution.com^
+||ns11.whois.co.kr^
+||oempprd.samsungcloudsolution.com^
+||oempprd.samsungcloudsolution.net^
+||openapi.samsung.com^
+||osb-apps.samsungqbe.com^
+||osb-krsvc.samsungqbe.com^
+||osb-eusvc.samsungqbe.com^
+||osb.samsungqbe.com^
+||otnprd10.samsungcloudsolution.net^
+||otnprd11.samsungcloudsolution.net^
+||otnprd8.samsungcloudsolution.net^
+||otnprd9.samsungcloudsolution.net^
+||pavv.co.kr^
+||pipeaota.com^
+||premium-videos.telly.com^
+||prov.samsungcloudsolution.com^
+||rd.samsungadhub.com^
+||rwww.samsungotn.net^
+||samsungacr.com^
+||samsungadhub.com^
+|samsungcloudsolution.com^
+|samsungcloudsolution.net^
+!samsungosp.com
+!samsungotn.net # system update check on Samsung UE65RU7455
+||samsungqbe.com^
+||samsungrm.net^
+||sas.samsungcloudsolution.com^
+||sca.samsung.com^
+||sso.internetat.tv^
+||syncplusconfig.s3.amazonaws.com^
+||targeted-config-test.samsungacr.com^
+||test.samsungrm.net^
+!time.samsungcloudsolution.com // if blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
+||us-api.samsungyosemite.com^
+||vd.emp.prd.s3.amazonaws.com^
+||vdterms.samsungcloudsolution.com^
+||www.samsungotn.net^
+||www.samsungrm.net^
+||samsungelectronics.com^
+||apu.samsungelectronics.com^
+||bpu.samsungelectronics.com^
+||dpu.samsungelectronics.com^
+||kpu.samsungelectronics.com^
+||upu.samsungelectronics.com^
+||zpu.samsungelectronics.com^
+||xpu.samsungelectronics.com^
+||ypu.samsungelectronics.com^
+||vd.contents.prod.eu.s3.amazonaws.com^
+||log-ingestion-eu.samsungacr.com^
+||osb-ussvc.samsungqbe.com^
+||otn.samsungcloudcdn.com^
+
+! HBBTV
+||hbbtv.smartclip.net^
+||hbbtv-1.eurosport.com^
+||hbbtv-extern-fe01.sim-technik.de^
+||hbbtv-track.redbutton.de^
+||hbbtv.*.de^
+||hbbtv01p.anixe.net^
+||hbbtvapp.sonnenklar.tv^
+||stats.hbbtv.smartclip.net^
+||p-hbbtv.superrtl.de^
+
+! Other useless connections from Smart-TV
+||ad.71i.de^
+||api.nfl.com^
+! apicache.vudu.com # needed for vudu app see issue22
+||cdn.smartclip.net^
+||cdns-content.dzcdn.net^
+||cert-test.sandbox.google.com^
+||database01p.anixe.net^
+||de.ioam.de^
+!drscdn.500px.org # blocks 500px on desktop
+||geo.opera.com^
+||googleads.g.doubleclick.net^
+! itv.ard.de # ARD media lib - HBBTV 
+||nbc-jite.nbcuni.com^
+||redbutton-adproxy-lb-prod.redbutton.de^
+||redbutton-lb-prod.redbutton.de^
+||redbutton.sim-technik.de^
+||script.ioam.de^
+||start.digitaltext.rtl.de^
+||stats-irl.sxp.smartclip.net^
+||tv-static.scdn.co^
+||tv.deezer.com^
+||xml.opera.com^
+
+! Netflix
+! secure, api-global, and appboot break Netflix
+!secure.netflix.com                   
+!api-global.netflix.com
+!appboot.netflix.com
+||ichnaea.netflix.com^
+||customerevents.netflix.com^
+||nrdp.nccp.netflix.com^
+
+! Spotify
+||api-tv.spotify.com^
+
+! Hulu
+||api.distribution.hulu.com^
+
+! Sharp Smart TV using Opera OS (thanks to sml156)
+! time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
+! api.accuweather.com                  # probably not a good idea to block this one
+
+! These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
+||api.*.hismarttv.com^
