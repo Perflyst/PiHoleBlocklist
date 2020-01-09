@@ -1,7 +1,7 @@
 [Adblock Plus 3.6]
 ! Title: Perflyst and Dandelion Sprout's SmartTV Blocklist for AdGuard Home
-! Version: 09January2020v1-Beta
-! Description: This is a blocklist to block smart-TVs sending metadata back home.
+! Version: 09January2020v2-Beta
+! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates or that other services no longer work. Please report such an incident.
 
@@ -208,3 +208,25 @@
 
 ! These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 ||api.*.hismarttv.com^
+
+! ————————————————————————————————————————————————
+
+! Amazon Fire Stick (First-party)
+||device-messaging-na.amazon.com^
+||devicemessaging.us-east-1.amazon.com^
+||fls-*.amazon.com^
+||mads-eu.amazon.com^
+||mas-sdk.amazon.com^
+||mas-ext.amazon.com^
+||aax-eu.amazon-adsystem.com^
+||msh.amazon.co.uk^
+||amazonadsi-a.akamaihd.net^
+||mobileanalytics.us-east-1.amazonaws.com^
+
+! Amazon Fire Stick (Third-party)
+||config.ioam.de^
+||de.ioam.de^
+||secure-eu.imrworldwide.com^
+||logs1409.xiti.com^
+||tracksrv.zdf.de^
+||settings.crashlytics.com^
