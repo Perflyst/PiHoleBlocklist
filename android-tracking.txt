@@ -73,7 +73,7 @@ googleads.g.doubleclick.net
 securepubads.g.doubleclick.net
 ad.doubleclick.net
 ssl.google-analytics.com
-clients1.google.com
+# clients1.google.com (blocks chromecast)
 adservice.google.de
 ade.googlesyndication.com
 id.google.de
