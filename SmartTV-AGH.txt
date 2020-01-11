@@ -1,15 +1,15 @@
 [Adblock Plus 3.6]
 ! Title: Perflyst and Dandelion Sprout's SmartTV Blocklist for AdGuard Home
-! Version: 09January2020v2-Beta
+! Version: 11January2020v1-Beta
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
-! It could occur that the TV fails to receive new updates or that other services no longer work. Please report such an incident.
+! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
 
-! Panasonic Viera & panny tv
+! Panasonic Viera & Panny TV
 ||cert-test.sandbox.google.com^
 
 ||myhomescreen.tv^
-! If domains below are blocked, unable to use smarttv apps e.g. Netflix, AmazonVideo as TV calls home for connection check
+! If domains below are blocked, unable to use smart-TV apps like Netflix, Amazon Video, etc. as TV calls home for connection check
 @@||mhc-ajax-eu.myhomescreen.tv^
 @@||mhc-xpana-eu.myhomescreen.tv^
 
@@ -40,10 +40,8 @@
 ! ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
 ||smartclip.com^
 ||smartclip.net^
-||smartshare.lgtvsdp.com^
-||ad.lgsmartad.com^
+||lgsmartad.com^
 ||ibs.lgappstv.com^
-||info.lgsmartad.com^
 ||lgtvsdp.com^
 ||yumenetworks.com^
 ! For TVs that try to connect to several garbled letter combinations
@@ -85,7 +83,6 @@
 ||gld.samsungosp.com^
 ||gpm.samsungqbe.com^
 ||i-stream.pl^
-||infolink.pavv.co.kr^
 !infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
 ||lcprd1.samsungcloudsolution.net^
 ||log-1.samsungacr.com^
@@ -161,6 +158,9 @@
 ||hbbtvapp.sonnenklar.tv^
 ||stats.hbbtv.smartclip.net^
 ||p-hbbtv.superrtl.de^
+@@||hbbtv.zdf.de^
+@@||hbbtv.prosieben.de^
+@@||hbbtv.redbutton.de^
 
 ! Other useless connections from Smart-TV
 ||ad.71i.de^
@@ -208,9 +208,11 @@
 ! These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 ||api.*.hismarttv.com^
 
-! ————————————————————————————————————————————————
+! —————————————————————————————————————————————————————————————
 
-! Amazon Fire Stick (First-party)
+! Entries based on https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+
+! Amazon Fire TV (First-party)
 ||device-messaging-na.amazon.com^
 ||devicemessaging.us-east-1.amazon.com^
 ||fls-*.amazon.com^
@@ -222,10 +224,22 @@
 ||amazonadsi-a.akamaihd.net^
 ||mobileanalytics.us-east-1.amazonaws.com^
 
-! Amazon Fire Stick (Third-party)
+! Amazon Fire TV (Third-party)
 ||config.ioam.de^
 ||de.ioam.de^
 ||secure-eu.imrworldwide.com^
 ||logs1409.xiti.com^
 ||tracksrv.zdf.de^
 ||settings.crashlytics.com^
+
+! —————————————————————————————————————————————————————————————
+
+! Entries based on Game Console Adblock List (https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt), which the owner has donated to this project and relicenced into MIT to fit with the rest of this list
+
+! PlayStation 3
+! Ads
+||nsx-e.np.dl.playstation.net^
+! What's New
+||mercury.dl.playstation.net^
+! PlayStation Store Preview
+||nsx.np.dl.playstation.net^
