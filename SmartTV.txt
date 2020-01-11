@@ -1,4 +1,4 @@
-# Title: Perflyst's SmartTV Blocklist for Pi-hole
+# Title: Perflyst's Smart-TV Blocklist for Pi-hole
 # Version: 11January2020v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
