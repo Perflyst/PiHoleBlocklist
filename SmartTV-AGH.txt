@@ -1,4 +1,3 @@
-[Adblock Plus 3.6]
 ! Title: Perflyst and Dandelion Sprout's Smart-TV Blocklist for AdGuard Home
 ! Version: 11January2020v4
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
