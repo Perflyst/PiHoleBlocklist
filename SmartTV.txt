@@ -1,8 +1,8 @@
 # Title: Perflyst's SmartTV Blocklist for Pi-hole
-# Version: 09January2020v2
+# Version: 11January2020v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
-# It could occur that the TV fails to receive new updates or that other services no longer work. Please report such an incident.
+# It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
 # Make sure to also use the extra RegEx list at https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/regex.list, which helps remove regional LG ad domains among other things.
 
 # Panasonic Viera & panny tv
@@ -101,7 +101,7 @@ amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 #auth.samsungosp.com // if blocked, samsung accounts will fail to authenticate
 az43064.vo.msecnd.net
-#cdn.samsungcloudsolution.com # ystem update check on Samsung UE40F5500
+#cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
 cdn.samsungcloudsolution.net
 configprd.samsungcloudsolution.net
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
@@ -192,15 +192,13 @@ hbbtv-1.eurosport.com
 hbbtv-extern-fe01.sim-technik.de
 hbbtv-track.redbutton.de
 hbbtv.kabeleins.de
-hbbtv.prosieben.de
+#hbbtv.prosieben.de # Blocks ProSieben apps from starting.
 hbbtv.qvc.de
-hbbtv.redbutton.de
-hbbtv.redbutton.de
+#hbbtv.redbutton.de # Blocks ZDF & ProSieben apps from starting.
 hbbtv.rtl2.de
 hbbtv.sat1.de
 hbbtv.sixx.de
-hbbtv.zdf.de
-hbbtv.zdf.de
+#hbbtv.zdf.de # Blocks ZDF apps from starting.
 hbbtv01p.anixe.net
 hbbtvapp.sonnenklar.tv
 scheduler.hbbtv.smartclip.net
