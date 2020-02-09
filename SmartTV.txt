@@ -253,7 +253,3 @@ api.distribution.hulu.com
 # These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 api.us.hismarttv.com
 api.euro.hismarttv.com
-
-# Telenor set-top boxes
-# Aims to remove rental movie promotions on the T-We homepage of T-We Boks 1 and T-We Boks Mini
-tnfba-static.telenorcdn.net
