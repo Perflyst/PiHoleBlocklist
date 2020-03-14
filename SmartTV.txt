@@ -1,5 +1,5 @@
 # Title: Perflyst's Smart-TV Blocklist for Pi-hole
-# Version: 09February2020v1
+# Version: 14March2020v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -250,6 +250,27 @@ api.distribution.hulu.com
 # time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
 # api.accuweather.com                  # probably not a good idea to block this one
 
+# Hisense Smart TV
+api-gps-em.hismarttv.com
+auth-em.hismarttv.com
+msg-em.hismarttv.com
+api-launcher-em.hismarttv.com
+auth-launcher-em.hismarttv.com
+unified-ter-na.hismarttv.com
 # These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 api.us.hismarttv.com
 api.euro.hismarttv.com
+
+# SiliconDust HDHomeRun
+tuner-api.hdhomerun.com
+location-api.hdhomerun.com
+
+# Foxtel Australia cable/satellite set-top box
+_xmpp-client._tcp.managed.xmpp.foxtel.com.au
+managed.xmpp.foxtel.com.au
+foxtel-prod-events.digitalsmiths.net
+e2.resources.foxtel.com.au
+a1.resources.foxtel.com.au
+
+# Yamaha AV receivers
+avpro.global.yamaha.com

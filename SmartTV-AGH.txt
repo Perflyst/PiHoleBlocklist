@@ -1,8 +1,12 @@
 ! Title: Perflyst and Dandelion Sprout's Smart-TV Blocklist for AdGuard Home
-! Version: 09February2020v1
+! Version: 14March2020v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
+
+! Multiple brands
+||smartclip.com^
+||smartclip.net^
 
 ! Panasonic Viera & Panny TV
 ||cert-test.sandbox.google.com^
@@ -37,8 +41,6 @@
 ||ibis.lgappstv.com^
 ||lgad.cjpowercast.com.edgesuite.net^
 ! ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
-||smartclip.com^
-||smartclip.net^
 ||lgsmartad.com^
 ||ibs.lgappstv.com^
 ||lgtvsdp.com^
@@ -59,7 +61,6 @@
 ! Samsung
 ||abtauthprd.samsungcloudsolution.com^
 ||acr0.samsungcloudsolution.com^
-||ad.samsungadhub.com^
 ||ads.samsungads.com^
 ||amauthprd.samsungcloudsolution.com^
 ||api-hub.samsungyosemite.com^
@@ -78,8 +79,7 @@
 ||d37ju0xanoz6gh.cloudfront.net^
 ||dev-multiscreen.samsung.com^
 ||device-metrics-us.amazon.com^
-||fkp.samsungcloudsolution.com^
-||fkp.samsungcloudsolution.net^
+||fkp.samsungcloudsolution.*^
 ||game.internetat.tv^
 ||gld.samsungosp.com^
 ||gpm.samsungqbe.com^
@@ -113,7 +113,6 @@
 ||pipeaota.com^
 ||premium-videos.telly.com^
 ||prov.samsungcloudsolution.com^
-||rd.samsungadhub.com^
 ||rwww.samsungotn.net^
 ||samsungacr.com^
 ||samsungadhub.com^
@@ -150,14 +149,12 @@
 ||otn.samsungcloudcdn.com^
 
 ! HBBTV
-||hbbtv.smartclip.net^
 ||hbbtv-1.eurosport.com^
 ||hbbtv-extern-fe01.sim-technik.de^
 ||hbbtv-track.redbutton.de^
 ||hbbtv.*.de^
 ||hbbtv01p.anixe.net^
 ||hbbtvapp.sonnenklar.tv^
-||stats.hbbtv.smartclip.net^
 ||p-hbbtv.superrtl.de^
 @@||hbbtv.zdf.de^
 @@||hbbtv.prosieben.de^
@@ -167,13 +164,12 @@
 ||ad.71i.de^
 ||api.nfl.com^
 ! apicache.vudu.com # needed for vudu app see issue22
-||cdn.smartclip.net^
 ||cdns-content.dzcdn.net^
 ||cert-test.sandbox.google.com^
 ||database01p.anixe.net^
 ||de.ioam.de^
 !drscdn.500px.org # blocks 500px on desktop
-||geo.opera.com^
+|geo.opera.com^|
 ||googleads.g.doubleclick.net^
 ! itv.ard.de # ARD media lib - HBBTV 
 ||nbc-jite.nbcuni.com^
@@ -182,10 +178,9 @@
 ||redbutton.sim-technik.de^
 ||script.ioam.de^
 ||start.digitaltext.rtl.de^
-||stats-irl.sxp.smartclip.net^
 ||tv-static.scdn.co^
 !tv.deezer.com # Breaks Deezer's smart-TV apps.
-||xml.opera.com^
+||xml.opera.com^$ctag=device_tv
 
 ! Netflix
 ! secure, api-global, and appboot break Netflix
@@ -206,8 +201,29 @@
 ! time-a.timefreq.bldrdoc.gov          # probably not a good idea to block this one
 ! api.accuweather.com                  # probably not a good idea to block this one
 
+! Hisense Smart TV
+||api-gps-em.hismarttv.com^
+||auth-em.hismarttv.com^
+||msg-em.hismarttv.com^
+||api-launcher-em.hismarttv.com^
+||auth-launcher-em.hismarttv.com^
+||unified-ter-na.hismarttv.com^
 ! These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 ||api.*.hismarttv.com^
+
+! SiliconDust HDHomeRun
+||tuner-api.hdhomerun.com^
+||location-api.hdhomerun.com^
+
+! Foxtel Australia cable/satellite set-top box
+||_xmpp-client._tcp.managed.xmpp.foxtel.com.au^
+||managed.xmpp.foxtel.com.au^
+||foxtel-prod-events.digitalsmiths.net^
+||e2.resources.foxtel.com.au^
+||a1.resources.foxtel.com.au^
+
+! Yamaha AV receivers
+||avpro.global.yamaha.com^
 
 ! —————————————————————————————————————————————————————————————
 
