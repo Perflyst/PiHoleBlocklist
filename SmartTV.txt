@@ -261,7 +261,7 @@ unified-ter-na.hismarttv.com
 api.us.hismarttv.com
 api.euro.hismarttv.com
 
-# SiliconDust HDHomeRun network TV tuner device
+# SiliconDust HDHomeRun
 tuner-api.hdhomerun.com
 location-api.hdhomerun.com
 
