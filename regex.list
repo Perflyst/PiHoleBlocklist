@@ -5,7 +5,7 @@
 (^|\.)ibs\.lgappstv\.com
 (^|\.)lgsmartad\.com
 (^|\.)lgtvsdp\.com
-^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?$
+^[a-z]{7,15}$
 
 # Other
 (^|\.)myhomescreen\.tv$
