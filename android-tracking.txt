@@ -6,12 +6,12 @@
 # iPhone 6
 
 # Facebook
-graph.facebook.com
+# graph.facebook.com # needed for facebook groups
 b-graph.facebook.com
 a-graph.facebook.com
 graph.instagram.com
 b-api.facebook.com
-edge-mqtt.facebook.com
+# edge-mqtt.facebook.com # needed for facebook groups
 mqtt-mini.facebook.com
 
 # Crashlytics
