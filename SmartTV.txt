@@ -1,5 +1,5 @@
 # Title: Perflyst's Smart-TV Blocklist for Pi-hole
-# Version: 14March2020v1
+# Version: 04April2020v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -104,6 +104,7 @@ az43064.vo.msecnd.net
 #cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
 cdn.samsungcloudsolution.net
 configprd.samsungcloudsolution.net
+connecttv.pelmorex.com # weather app tracking
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 cpu.samsungelectronics.com
 d179kwmlpc4o47.cloudfront.net
@@ -122,7 +123,7 @@ gld.samsungosp.com
 gpm.samsungqbe.com
 i-stream.pl
 #infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
-lcprd1.samsungcloudsolution.net
+#lcprd1.samsungcloudsolution.net # ping test, no beaconing
 log-1.samsungacr.com
 log-2.samsungacr.com
 log-3.samsungacr.com
@@ -142,10 +143,10 @@ osb-apps.samsungqbe.com
 osb-krsvc.samsungqbe.com
 osb-eusvc.samsungqbe.com
 osb.samsungqbe.com
-otnprd10.samsungcloudsolution.net
-otnprd11.samsungcloudsolution.net
-otnprd8.samsungcloudsolution.net
-otnprd9.samsungcloudsolution.net
+#otnprd10.samsungcloudsolution.net # required for software update
+#otnprd11.samsungcloudsolution.net # required for software update
+#otnprd8.samsungcloudsolution.net # required for software update
+#otnprd9.samsungcloudsolution.net # required for software update
 pavv.co.kr
 pipeaota.com
 premium-videos.telly.com
@@ -170,7 +171,7 @@ test.samsungrm.net
 us-api.samsungyosemite.com
 vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
-www.samsungotn.net
+#www.samsungotn.net # required for software update
 www.samsungrm.net
 samsungelectronics.com
 apu.samsungelectronics.com
@@ -183,7 +184,7 @@ xpu.samsungelectronics.com
 ypu.samsungelectronics.com
 vd.contents.prod.eu.s3.amazonaws.com
 log-ingestion-eu.samsungacr.com
-osb-ussvc.samsungqbe.com
+#osb-ussvc.samsungqbe.com # required for TV Plus
 otn.samsungcloudcdn.com
 
 # HBBTV
