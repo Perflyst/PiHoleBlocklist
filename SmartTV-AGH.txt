@@ -1,5 +1,5 @@
 ! Title: Perflyst and Dandelion Sprout's Smart-TV Blocklist for AdGuard Home
-! Version: 04April2020v1
+! Version: 27April2020v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -170,7 +170,7 @@
 ||database01p.anixe.net^
 ||de.ioam.de^
 !drscdn.500px.org # blocks 500px on desktop
-|geo.opera.com^|
+!|geo.opera.com^| # blocks opera update
 ||googleads.g.doubleclick.net^
 ! itv.ard.de # ARD media lib - HBBTV 
 ||nbc-jite.nbcuni.com^
