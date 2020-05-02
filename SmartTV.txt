@@ -237,9 +237,10 @@ xml.opera.com
 #secure.netflix.com                   
 #api-global.netflix.com
 #appboot.netflix.com
+#nrdp.nccp.netflix.com
 ichnaea.netflix.com
 customerevents.netflix.com
-nrdp.nccp.netflix.com
+
 
 # Spotify
 api-tv.spotify.com
