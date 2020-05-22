@@ -110,7 +110,7 @@ cpu.samsungelectronics.com
 d179kwmlpc4o47.cloudfront.net
 d179kwmlpc4o47.cloudfront.net
 d1jwpcr0q4pcq0.cloudfront.net
-d1oxlq5h9kq8q5.cloudfront.net
+d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store
 d2tnx644ijgq6i.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
 d37ju0xanoz6gh.cloudfront.net
@@ -163,7 +163,7 @@ samsungqbe.com
 samsungrm.net
 sas.samsungcloudsolution.com
 sca.samsung.com
-sso.internetat.tv
+sso.internetat.tv # account login
 syncplusconfig.s3.amazonaws.com
 targeted-config-test.samsungacr.com
 test.samsungrm.net
