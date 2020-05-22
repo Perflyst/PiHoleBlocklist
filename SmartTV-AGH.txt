@@ -1,5 +1,5 @@
 ! Title: Perflyst and Dandelion Sprout's Smart-TV Blocklist for AdGuard Home
-! Version: 27April2020v1
+! Version: 22May2020v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -48,8 +48,11 @@
 ! ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
 ||lgsmartad.com^
 ||ibs.lgappstv.com^
-||lgtvsdp.com^
 ||yumenetworks.com^
+! ||lgtvsdp.com^ # Prevents LG TV Content Store from working on LG ___________
+|lgtvsdp.com^
+||smartshare.lgtvsdp.com^
+||rdx2.lgtvsdp.com^
 ! For TVs that try to connect to several garbled letter combinations
 /^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?$/
 ! Used in malware exploits
