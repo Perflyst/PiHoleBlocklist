@@ -56,13 +56,18 @@ x2.vindicosuite.com
 #portal.store.sonyentertainmentnetwork.com
 ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
 ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+reg.biv.sony.tv
+service.biv.sony.tv
+ssm1.internet.sony.tv
+ssm2.internet.sony.tv
+ssm3.internet.sony.tv
+update.biv.sony.tv
 api-mf1.meta.ndmdhs.com
 b02.black.ndmdhs.com
 bravia.dl.playstation.net
 call.me.sel.sony.com
 flingo.tv
 sonybivstatic-a.akamaihd.net
-ssm1.internet.sony.tv
 facemap.foldlife.net
 bdcore-apr-lb.bda.ndmdhs.com
 
