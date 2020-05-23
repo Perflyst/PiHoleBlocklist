@@ -21,8 +21,8 @@
 ! needed for applications, if blocked gives the error "No internet connection"
 !applicast.ga.sony.net
 !portal.store.sonyentertainmentnetwork.com
-||ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv^
-||ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv^
+||ssm1.internet.sony.tv^
+||ssm2.internet.sony.tv^
 ||reg.biv.sony.tv^
 ||service.biv.sony.tv^
 ||ssm3.internet.sony.tv^
