@@ -49,7 +49,7 @@
 ||smartshare.lgtvsdp.com^
 ||rdx2.lgtvsdp.com^
 ! For TVs that try to connect to several garbled letter combinations
-/^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?[a-z]?$/
+/^[a-z]{7,15}$/
 ! Used in malware exploits
 ||aic-ngfts.lge.com^
 
