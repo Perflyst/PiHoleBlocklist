@@ -7,7 +7,7 @@
 
 # Facebook
 # graph.facebook.com # needed for facebook groups
-b-graph.facebook.com
+# b-graph.facebook.com # needed for facebook pages manager
 a-graph.facebook.com
 graph.instagram.com
 b-api.facebook.com
