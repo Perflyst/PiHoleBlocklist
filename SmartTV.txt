@@ -247,7 +247,7 @@ customerevents.netflix.com
 nrdp.nccp.netflix.com
 
 # Spotify
-api-tv.spotify.com
+#api-tv.spotify.com # required for TV and PS4 spotify app
 
 # Hulu
 api.distribution.hulu.com
