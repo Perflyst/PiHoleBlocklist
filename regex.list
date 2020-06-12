@@ -20,5 +20,5 @@
 (^|\.)samsungrm\.net$
 
 # Other
-(^|\.)myhomescreen\.tv$
+# (^|\.)myhomescreen\.tv$ # can produce false positives, rather block individual domains
 ^api\..*\.hismarttv\.com$

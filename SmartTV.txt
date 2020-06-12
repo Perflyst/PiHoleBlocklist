@@ -1,5 +1,5 @@
 # Title: Perflyst's Smart-TV Blocklist for Pi-hole
-# Version: 27April2020v1
+# Version: 12June2020v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -15,6 +15,7 @@ collect-us-fy2016.myhomescreen.tv
 collect-us-fy2017.myhomescreen.tv
 collect-us-fy2018.myhomescreen.tv
 collect-us-fy2019.myhomescreen.tv
+collect-us-fy2020.myhomescreen.tv
 
 collect-eu-fy2014.myhomescreen.tv
 collect-eu-fy2015.myhomescreen.tv
@@ -22,7 +23,7 @@ collect-eu-fy2017.myhomescreen.tv
 collect-eu-fy2016.myhomescreen.tv
 collect-eu-fy2018.myhomescreen.tv
 collect-eu-fy2019.myhomescreen.tv
-
+collect-eu-fy2020.myhomescreen.tv
 
 usage-eu-fy2014.myhomescreen.tv
 usage-eu-fy2015.myhomescreen.tv
@@ -30,6 +31,7 @@ usage-eu-fy2016.myhomescreen.tv
 usage-eu-fy2017.myhomescreen.tv
 usage-eu-fy2018.myhomescreen.tv
 usage-eu-fy2019.myhomescreen.tv
+usage-eu-fy2020.myhomescreen.tv
 
 usage-us-fy2014.myhomescreen.tv
 usage-us-fy2015.myhomescreen.tv
@@ -37,14 +39,16 @@ usage-us-fy2016.myhomescreen.tv
 usage-us-fy2017.myhomescreen.tv
 usage-us-fy2018.myhomescreen.tv
 usage-us-fy2019.myhomescreen.tv
+usage-us-fy2020.myhomescreen.tv
 
-
-#mhc-ajax-eu.myhomescreen.tv  //  if blocked, unable to use smart-TV apps like Netflix, Amazon Video, etc., as TV calls home for connection check
-mhc-ajax-us.myhomescreen.tv
+#mhc-ajax-eu.myhomescreen.tv # internet connection test
+#mhc-ajax-eu-s2.myhomescreen.tv # internet connection test
+#mhc-ajax-us.myhomescreen.tv # internet connection test
 mhc-sec-eu.myhomescreen.tv
 mhc-sec-us.myhomescreen.tv
-#mhc-xpana-eu.myhomescreen.tv  //  if blocked, unable to use smart-TV apps like Netflix, Amazon Video, etc., as TV calls home for connection check
-mhc-xpana-us.myhomescreen.tv
+#mhc-xpana-eu.myhomescreen.tv # required to start apps
+#mhc-xpana-eu-s2.myhomescreen.tv # required to start apps
+#mhc-xpana-us.myhomescreen.tv # required to start apps
 #vcs.vdspf.com  //  if blocked, notified of new firmware but unable to download/install
 x2.vindicosuite.com
 
