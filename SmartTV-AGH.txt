@@ -1,5 +1,5 @@
 ! Title: Perflyst and Dandelion Sprout's Smart-TV Blocklist for AdGuard Home
-! Version: 12June2020v1
+! Version: 19June2020v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -145,7 +145,10 @@
 @@||hbbtv.redbutton.de^
 
 ! Other useless connections from Smart-TV
+||2mdn.net^
 ||ad.71i.de^
+||adv.ettoday.net^
+||advertising.com^
 ||api.nfl.com^
 ! apicache.vudu.com # Needed for Vudu app; https://github.com/Perflyst/PiHoleBlocklist/issues/22
 ||cdns-content.dzcdn.net^
@@ -162,6 +165,7 @@
 ||redbutton.sim-technik.de^
 ||script.ioam.de^
 ||start.digitaltext.rtl.de^
+||trvdp.com^
 ||tv-static.scdn.co^
 !tv.deezer.com # Breaks Deezer's smart-TV apps.
 ||xml.opera.com^$ctag=device_tv
