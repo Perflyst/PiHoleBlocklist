@@ -4,7 +4,9 @@ fls-eu.amazon.com
 fls-na.amazon.com
 mads-eu.amazon.com
 mas-sdk.amazon.com
-mas-ext.amazon.com
+
+# required for apps to be installed
+#mas-ext.amazon.com
 
 aax-eu.amazon-adsystem.com
 
@@ -63,3 +65,4 @@ secure-eu.imrworldwide.com
 logs1409.xiti.com
 tracksrv.zdf.de
 settings.crashlytics.com
+notify.firetv.bugsnag.appstore.a2z.com
