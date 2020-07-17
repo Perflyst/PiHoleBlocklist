@@ -196,6 +196,12 @@ log-ingestion-eu.samsungacr.com
 #osb-ussvc.samsungqbe.com # required for TV Plus
 otn.samsungcloudcdn.com
 
+# Vizio
+tvmeta-dynamic.tvinteractive.tv
+control-zoo-dtsprod.tvinteractive.tv
+control2.tvinteractive.tv
+control.tvinteractive.tv
+
 # HBBTV
 cdn.hbbtv.smartclip.net
 hbbtv-1.eurosport.com
