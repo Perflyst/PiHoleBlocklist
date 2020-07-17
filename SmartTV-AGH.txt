@@ -132,6 +132,12 @@
 @@||osb-ussvc.samsungqbe.com^
 ||otn.samsungcloudcdn.com^
 
+! Vizio
+||control2.tvinteractive.tv
+||control-zoo-dtsprod.tvinteractive.tv
+||control.tvinteractive.tv
+||tvmeta-dynamic.tvinteractive.tv
+
 ! HBBTV
 ||hbbtv-1.eurosport.com^
 ||hbbtv-extern-fe01.sim-technik.de^
