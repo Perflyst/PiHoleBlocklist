@@ -207,7 +207,7 @@ control2.tvinteractive.tv
 control-zoo-dtsprod.tvinteractive.tv
 control.tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
-
+mcp.tvinteractive.tv
 # HBBTV
 cdn.hbbtv.smartclip.net
 hbbtv-1.eurosport.com
