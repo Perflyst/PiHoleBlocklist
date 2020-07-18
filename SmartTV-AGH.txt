@@ -137,6 +137,7 @@
 ||control-zoo-dtsprod.tvinteractive.tv
 ||control.tvinteractive.tv
 ||tvmeta-dynamic.tvinteractive.tv
+||mcp.tvinteractive.tv
 
 ! Roku
 ||scribe.logs.roku.com
