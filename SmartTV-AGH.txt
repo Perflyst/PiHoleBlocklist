@@ -132,18 +132,18 @@
 @@||osb-ussvc.samsungqbe.com^
 ||otn.samsungcloudcdn.com^
 
+! Roku
+||scribe.logs.roku.com
+||midland.logs.roku.com
+||display.ravm.tv
+||ravm.tv
+
 ! Vizio
 ||control2.tvinteractive.tv
 ||control-zoo-dtsprod.tvinteractive.tv
 ||control.tvinteractive.tv
 ||tvmeta-dynamic.tvinteractive.tv
 ||mcp.tvinteractive.tv
-
-! Roku
-||scribe.logs.roku.com
-||midland.logs.roku.com
-||display.ravm.tv
-||ravm.tv
 
 ! HBBTV
 ||hbbtv-1.eurosport.com^
