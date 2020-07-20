@@ -203,11 +203,10 @@ display.ravm.tv
 ravm.tv
 
 # Vizio
-control2.tvinteractive.tv
-control-zoo-dtsprod.tvinteractive.tv
-control.tvinteractive.tv
-tvmeta-dynamic.tvinteractive.tv
-mcp.tvinteractive.tv
+# Required for Vizio smart tv features
+#api.vizio.com
+#images.vizio.com
+#announcements.vizio.com # No reason to block this
 
 # HBBTV
 cdn.hbbtv.smartclip.net

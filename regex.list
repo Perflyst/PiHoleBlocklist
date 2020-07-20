@@ -19,6 +19,9 @@
 (^|\.)samsungotn\.net$
 (^|\.)samsungrm\.net$
 
+# Vizio
+(\.|^)tvinteractive\.tv$
+
 # Other
 # (^|\.)myhomescreen\.tv$ # can produce false positives, rather block individual domains
 ^api\..*\.hismarttv\.com$
