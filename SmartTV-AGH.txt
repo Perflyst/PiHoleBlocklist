@@ -134,13 +134,13 @@
 !samsungotn.net # System update check on Samsung UE65RU7455
 !||sso.internetat.tv^ # Account login
 !time.samsungcloudsolution.com # If blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
-!||otn.samsungcloudcdn.com^ # Prevents updates on UE49KS7000 and QE55Q9FNA
+!||otn.samsungcloudcdn.com^ # Prevents updates on UE49KS7000 and QE55Q9FNA; https://github.com/Perflyst/PiHoleBlocklist/issues/60
 !||www.samsungotn.net^ # Required for software update
 
 ! Roku
-||logs.roku.com
-||display.ravm.tv
-||ravm.tv
+||logs.roku.com^
+||display.ravm.tv^
+||ravm.tv^
 
 ! Vizio
 ! Required for Vizio smart tv features
