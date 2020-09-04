@@ -201,7 +201,7 @@ gamespromotion.samsungcloudsolution.com
 #time.samsungcloudsolution.com # if blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
 #www.samsungotn.net # required for software update
 #osb-ussvc.samsungqbe.com # required for TV Plus
-#otn.samsungcloudcdn.com # Prevents updates on UE49KS7000 and QE55Q9FNA
+#otn.samsungcloudcdn.com # Prevents updates on UE49KS7000 and QE55Q9FNA; https://github.com/Perflyst/PiHoleBlocklist/issues/60
 #ns11.whois.co.kr # Prevents Series 7 TVs from opening YouTube
 
 # Roku
