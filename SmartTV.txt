@@ -1,5 +1,5 @@
 # Title: Perflyst's Smart-TV Blocklist for Pi-hole
-# Version: 04September2020v1
+# Version: 06September2020v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -308,6 +308,3 @@ managed.xmpp.foxtel.com.au
 foxtel-prod-events.digitalsmiths.net
 e2.resources.foxtel.com.au
 a1.resources.foxtel.com.au
-
-# Yamaha AV receivers
-avpro.global.yamaha.com
