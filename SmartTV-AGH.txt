@@ -225,9 +225,6 @@
 ||e2.resources.foxtel.com.au^
 ||a1.resources.foxtel.com.au^
 
-! Yamaha AV receivers
-||avpro.global.yamaha.com^
-
 ! —————————————————————————————————————————————————————————————
 
 ! Entries based on https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
