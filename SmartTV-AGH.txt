@@ -1,5 +1,5 @@
 ! Title: Perflyst and Dandelion Sprout's Smart-TV Blocklist for AdGuard Home
-! Version: 19June2020v1
+! Version: 06September2020v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -37,6 +37,7 @@
 ||sonybivstatic-a.akamaihd.net^
 ||facemap.foldlife.net^
 ||bdcore-apr-lb.bda.ndmdhs.com^
+||tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com^
 
 ! LG
 ||ad.lgappstv.com^
@@ -66,44 +67,32 @@
 ! Samsung
 ||abtauthprd.samsungcloudsolution.com^
 ||acr0.samsungcloudsolution.com^
-||ads.samsungads.com^
+||samsungads.com^
 ||amauthprd.samsungcloudsolution.com^
 ||api-hub.samsungyosemite.com^
-!auth.samsungosp.com # If blocked, Samsung accounts will fail to authenticate
 ||az43064.vo.msecnd.net^
-!cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
 ||cdn.samsungcloudsolution.net^
 ||configprd.samsungcloudsolution.net^
-! Weather app tracking
-||connecttv.pelmorex.com^
 ||Coordinator-Production-28516768.us-east-1.elb.amazonaws.com^
 ||d179kwmlpc4o47.cloudfront.net^
 ||d1jwpcr0q4pcq0.cloudfront.net^
-!||d1oxlq5h9kq8q5.cloudfront.net^ # app icons in samsung app store
 ||d2tnx644ijgq6i.cloudfront.net^
 ||d3mjsomixevyw7.cloudfront.net^
 ||d37ju0xanoz6gh.cloudfront.net^
 ||dev-multiscreen.samsung.com^
 ||device-metrics-us.amazon.com^
-||fkp.samsungcloudsolution.*
+||fkp.samsungcloudsolution.
 ||game.internetat.tv^
 ||gld.samsungosp.com^
 ||i-stream.pl^
-!infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
-!||lcprd1.samsungcloudsolution.net^ # Ping test, no beaconing
 ||log.internetat.tv^
 ||multiscreen.samsung.com^
 ||musicid.samsungcloudsolution.com^
 ||notice.samsungcloudsolution.com^
 ||noticecdn.samsungcloudsolution.com^
 ||noticefile.samsungcloudsolution.com^
-||ns11.whois.co.kr^
-||oempprd.samsungcloudsolution.*
+||oempprd.samsungcloudsolution.
 ||openapi.samsung.com^
-!||otnprd10.samsungcloudsolution.net^ # Required for software update
-!||otnprd11.samsungcloudsolution.net^ # Required for software update
-!||otnprd8.samsungcloudsolution.net^ # Required for software update
-!||otnprd9.samsungcloudsolution.net^ # Required for software update
 ||pavv.co.kr^
 ||pipeaota.com^
 ||premium-videos.telly.com^
@@ -113,30 +102,45 @@
 ||samsungadhub.com^
 |samsungcloudsolution.com^
 |samsungcloudsolution.net^
-!samsungosp.com
-!samsungotn.net # System update check on Samsung UE65RU7455
 ||samsungqbe.com^
 ||samsungrm.net^
 ||sas.samsungcloudsolution.com^
 ||sca.samsung.com^
-!||sso.internetat.tv^ # Account login
 ||syncplusconfig.s3.amazonaws.com^
-!time.samsungcloudsolution.com # If blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
 ||us-api.samsungyosemite.com^
 ||vd.emp.prd.s3.amazonaws.com^
 ||vdterms.samsungcloudsolution.com^
-!||www.samsungotn.net^ # Required for software update
 ||samsungelectronics.com^
 ||vd.contents.prod.eu.s3.amazonaws.com^
+||data.arqiva.tv^
+||cloud.arqiva.tv^
+||gamespromotion.samsungcloudsolution.com^
+! Weather app tracking
+||connecttv.pelmorex.com^
+! Needed for appstore and login on Samsung UE40F5500
+@@||infolink.pavv.co.kr^
 ! Required for "TV Plus"
 @@||osb-ussvc.samsungqbe.com^
-||otn.samsungcloudcdn.com^
+!auth.samsungosp.com # If blocked, Samsung accounts will fail to authenticate
+!cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
+!||d1oxlq5h9kq8q5.cloudfront.net^ # app icons in samsung app store
+!||ns11.whois.co.kr^ # Prevents Series 7 TVs from opening YouTube
+!||lcprd1.samsungcloudsolution.net^ # Ping test, no beaconing
+!||otnprd10.samsungcloudsolution.net^ # Required for software update
+!||otnprd11.samsungcloudsolution.net^ # Required for software update
+!||otnprd8.samsungcloudsolution.net^ # Required for software update
+!||otnprd9.samsungcloudsolution.net^ # Required for software update
+!samsungosp.com
+!samsungotn.net # System update check on Samsung UE65RU7455
+!||sso.internetat.tv^ # Account login
+!time.samsungcloudsolution.com # If blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
+!||otn.samsungcloudcdn.com^ # Prevents updates on UE49KS7000 and QE55Q9FNA; https://github.com/Perflyst/PiHoleBlocklist/issues/60
+!||www.samsungotn.net^ # Required for software update
 
 ! Roku
-||scribe.logs.roku.com
-||midland.logs.roku.com
-||display.ravm.tv
-||ravm.tv
+||logs.roku.com^
+||display.ravm.tv^
+||ravm.tv^
 
 ! Vizio
 ! Required for Vizio smart tv features
@@ -222,7 +226,7 @@
 ||a1.resources.foxtel.com.au^
 
 ! Yamaha AV receivers
-||avpro.global.yamaha.com^
+!||avpro.global.yamaha.com^ # Blocks system updates on RX-V685
 
 ! —————————————————————————————————————————————————————————————
 

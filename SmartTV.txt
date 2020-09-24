@@ -1,5 +1,5 @@
 # Title: Perflyst's Smart-TV Blocklist for Pi-hole
-# Version: 19June2020v1
+# Version: 06September2020v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -74,7 +74,7 @@ flingo.tv
 sonybivstatic-a.akamaihd.net
 facemap.foldlife.net
 bdcore-apr-lb.bda.ndmdhs.com
-
+tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 
 # LG
 ad.lgappstv.com
@@ -100,7 +100,6 @@ nettv.corio.com
 #www.ecdinterface.philips.com # Philips Hue Bridge
 ad.nettvservices.com
 
-
 # Samsung
 abtauthprd.samsungcloudsolution.com
 acr0.samsungcloudsolution.com
@@ -108,9 +107,7 @@ ad.samsungadhub.com
 ads.samsungads.com
 amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
-#auth.samsungosp.com // if blocked, samsung accounts will fail to authenticate
 az43064.vo.msecnd.net
-#cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
 cdn.samsungcloudsolution.net
 configprd.samsungcloudsolution.net
 connecttv.pelmorex.com # weather app tracking
@@ -131,8 +128,6 @@ game.internetat.tv
 gld.samsungosp.com
 gpm.samsungqbe.com
 i-stream.pl
-#infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
-#lcprd1.samsungcloudsolution.net # ping test, no beaconing
 log-1.samsungacr.com
 log-2.samsungacr.com
 log-3.samsungacr.com
@@ -144,7 +139,6 @@ musicid.samsungcloudsolution.com
 notice.samsungcloudsolution.com
 noticecdn.samsungcloudsolution.com
 noticefile.samsungcloudsolution.com
-ns11.whois.co.kr
 oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
 openapi.samsung.com
@@ -152,10 +146,6 @@ osb-apps.samsungqbe.com
 osb-krsvc.samsungqbe.com
 osb-eusvc.samsungqbe.com
 osb.samsungqbe.com
-#otnprd10.samsungcloudsolution.net # required for software update
-#otnprd11.samsungcloudsolution.net # required for software update
-#otnprd8.samsungcloudsolution.net # required for software update
-#otnprd9.samsungcloudsolution.net # required for software update
 pavv.co.kr
 pipeaota.com
 premium-videos.telly.com
@@ -166,8 +156,6 @@ samsungacr.com
 samsungadhub.com
 samsungcloudsolution.com
 samsungcloudsolution.net
-#samsungosp.com
-#samsungotn.net # system update check on Samsung UE65RU7455
 samsungqbe.com
 samsungrm.net
 sas.samsungcloudsolution.com
@@ -176,11 +164,9 @@ sso.internetat.tv # account login
 syncplusconfig.s3.amazonaws.com
 targeted-config-test.samsungacr.com
 test.samsungrm.net
-#time.samsungcloudsolution.com // if blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
 us-api.samsungyosemite.com
 vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
-#www.samsungotn.net # required for software update
 www.samsungrm.net
 samsungelectronics.com
 apu.samsungelectronics.com
@@ -193,12 +179,37 @@ xpu.samsungelectronics.com
 ypu.samsungelectronics.com
 vd.contents.prod.eu.s3.amazonaws.com
 log-ingestion-eu.samsungacr.com
+data.arqiva.tv
+cloud.arqiva.tv
+ad.samsungadhub.com
+ads.aimitv.com
+d37ju0xanoz6gh.cloudfront.net
+rd.samsungadhub.com
+samsungadhub.com
+samsungads.com
+gamespromotion.samsungcloudsolution.com
+#auth.samsungosp.com # if blocked, samsung accounts will fail to authenticate
+#cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
+#infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500
+#lcprd1.samsungcloudsolution.net # ping test, no beaconing
+#otnprd10.samsungcloudsolution.net # required for software update
+#otnprd11.samsungcloudsolution.net # required for software update
+#otnprd8.samsungcloudsolution.net # required for software update
+#otnprd9.samsungcloudsolution.net # required for software update
+#samsungosp.com
+#samsungotn.net # system update check on Samsung UE65RU7455
+#time.samsungcloudsolution.com # if blocked, services like Plex, YouTube and Amazon Video not working anymore on some Samsung TV's
+#www.samsungotn.net # required for software update
 #osb-ussvc.samsungqbe.com # required for TV Plus
-otn.samsungcloudcdn.com
+#otn.samsungcloudcdn.com # Prevents updates on UE49KS7000 and QE55Q9FNA; https://github.com/Perflyst/PiHoleBlocklist/issues/60
+#ns11.whois.co.kr # Prevents Series 7 TVs from opening YouTube
 
 # Roku
 scribe.logs.roku.com
 midland.logs.roku.com
+austin.logs.roku.com
+cooper.logs.roku.com
+liberty.logs.roku.com
 display.ravm.tv
 ravm.tv
 
@@ -299,4 +310,4 @@ e2.resources.foxtel.com.au
 a1.resources.foxtel.com.au
 
 # Yamaha AV receivers
-avpro.global.yamaha.com
+#avpro.global.yamaha.com # Blocks system updates on RX-V685
