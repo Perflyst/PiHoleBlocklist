@@ -109,6 +109,7 @@ amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 az43064.vo.msecnd.net
 cdn.samsungcloudsolution.net
+cdn.samsungcloudsolution.com
 configprd.samsungcloudsolution.net
 connecttv.pelmorex.com # weather app tracking
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
