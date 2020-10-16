@@ -237,6 +237,7 @@ xml.opera.com
 #secure.netflix.com                   
 #api-global.netflix.com
 #appboot.netflix.com
+# Netflix playback fails on Humax DTR-T2100 (YouView) STB
 #nrdp.nccp.netflix.com
 ichnaea.netflix.com
 customerevents.netflix.com
