@@ -141,6 +141,7 @@ noticecdn.samsungcloudsolution.com
 noticefile.samsungcloudsolution.com
 oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
+prderrordumphsm.samsungcloudsolution.com
 openapi.samsung.com
 osb-apps.samsungqbe.com
 osb-krsvc.samsungqbe.com
