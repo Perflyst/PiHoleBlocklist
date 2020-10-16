@@ -92,6 +92,7 @@
 ||noticecdn.samsungcloudsolution.com^
 ||noticefile.samsungcloudsolution.com^
 ||oempprd.samsungcloudsolution.
+||prderrordumphsm.samsungcloudsolution.com^
 ||openapi.samsung.com^
 ||pavv.co.kr^
 ||pipeaota.com^
