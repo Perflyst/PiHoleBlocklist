@@ -217,8 +217,8 @@
 ||api.*.hismarttv.com^
 
 ! SiliconDust HDHomeRun
-||tuner-api.hdhomerun.com^
-||location-api.hdhomerun.com^
+!||tuner-api.hdhomerun.com^ # required for firmware update
+!||location-api.hdhomerun.com^ # required for firmware update
 
 ! Foxtel Australia cable/satellite set-top box
 ||managed.xmpp.foxtel.com.au^
