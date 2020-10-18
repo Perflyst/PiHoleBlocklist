@@ -10,7 +10,7 @@
 # b-graph.facebook.com # needed for facebook pages manager
 a-graph.facebook.com
 graph.instagram.com
-b-api.facebook.com
+# b-api.facebook.com # required for Facebook Messenger login on mobile
 # edge-mqtt.facebook.com # needed for facebook groups
 mqtt-mini.facebook.com
 
