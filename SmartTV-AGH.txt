@@ -104,6 +104,7 @@
 |samsungcloudsolution.com^
 |samsungcloudsolution.net^
 ||samsungqbe.com^
+@@||osb.samsungqbe.com^ # Re-enable control by Google Home (tested on 2018-era UN55NU8000)
 ||samsungrm.net^
 ||sas.samsungcloudsolution.com^
 ||sca.samsung.com^
