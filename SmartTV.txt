@@ -296,6 +296,11 @@ auth-em.hismarttv.com
 msg-em.hismarttv.com
 api-launcher-em.hismarttv.com
 auth-launcher-em.hismarttv.com
+api-gps-na.hismarttv.com
+auth-na.hismarttv.com
+msg-na.hismarttv.com
+api-launcher-na.hismarttv.com
+auth-launcher-na.hismarttv.com
 unified-ter-na.hismarttv.com
 # These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 api.us.hismarttv.com
