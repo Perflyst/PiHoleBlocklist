@@ -234,6 +234,13 @@
 ! Yamaha AV receivers
 !||avpro.global.yamaha.com^ # Blocks system updates on RX-V685
 
+! Toshiba
+||events.cid.samba.tv^
+||platform.cid.samba.tv^
+||file2fxm.azureedge.net^
+||7345023508.fxmconnect.com^
+||7345023508.fxm9485766783.com^
+
 ! —————————————————————————————————————————————————————————————
 
 ! Entries based on https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
