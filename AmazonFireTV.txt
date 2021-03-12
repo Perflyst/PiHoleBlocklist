@@ -12,7 +12,8 @@ aax-eu.amazon-adsystem.com
 
 msh.amazon.co.uk
 
-amazonadsi-a.akamaihd.net
+# required for app installation / updates
+# amazonadsi-a.akamaihd.net
 
 mobileanalytics.us-east-1.amazonaws.com
 

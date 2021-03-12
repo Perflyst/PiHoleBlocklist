@@ -1,5 +1,5 @@
 ! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout's)
-! Version: 12March2021v2
+! Version: 12March2021v3
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -255,7 +255,7 @@
 ||mas-ext.amazon.com^
 ||aax-eu.amazon-adsystem.com^
 ||msh.amazon.co.uk^
-||amazonadsi-a.akamaihd.net^
+! amazonadsi-a.akamaihd.net^ # FireTV and Tablet app installation / updates
 ||mobileanalytics.us-east-1.amazonaws.com^
 
 ! Amazon Fire TV (Third-party)
