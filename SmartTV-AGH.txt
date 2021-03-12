@@ -1,5 +1,5 @@
-! Title: Perflyst and Dandelion Sprout's Smart-TV Blocklist for AdGuard Home
-! Version: 06September2020v1
+! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout's)
+! Version: 12March2021v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -195,6 +195,7 @@
 ||ichnaea.netflix.com^
 ||customerevents.netflix.com^
 !||nrdp.nccp.netflix.com^ # Netflix playback fails on Humax DTR-T2100 (YouView) STB; https://github.com/Perflyst/PiHoleBlocklist/issues/54
+||nrdp.prod.ftl.netflix.com^
 
 ! Spotify
 !||api-tv.spotify.com^ # required for TV and PS4 spotify app
