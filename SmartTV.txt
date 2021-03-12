@@ -1,5 +1,5 @@
 # Title: Smart-TV Blocklist for Pi-hole
-# Version: 12March2021v1
+# Version: 12March2021v2
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -65,7 +65,7 @@ service.biv.sony.tv
 ssm1.internet.sony.tv
 ssm2.internet.sony.tv
 ssm3.internet.sony.tv
-update.biv.sony.tv
+# update.biv.sony.tv # required for updates
 api-mf1.meta.ndmdhs.com
 b02.black.ndmdhs.com
 bravia.dl.playstation.net
