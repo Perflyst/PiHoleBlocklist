@@ -47,9 +47,9 @@ usage-us-fy2020.myhomescreen.tv
 #mhc-ajax-eu.myhomescreen.tv # internet connection test
 #mhc-ajax-eu-s2.myhomescreen.tv # internet connection test
 #mhc-ajax-us.myhomescreen.tv # internet connection test
-mhc-eu.myhomescreen.tv
+#mhc-eu.myhomescreen.tv # required for internet connectivity
 mhc-sec-eu.myhomescreen.tv
-mhc-us.myhomescreen.tv
+#mhc-us.myhomescreen.tv # required for internet connectivity
 mhc-sec-us.myhomescreen.tv
 #mhc-xpana-eu.myhomescreen.tv # required to start apps
 #mhc-xpana-eu-s2.myhomescreen.tv # required to start apps
