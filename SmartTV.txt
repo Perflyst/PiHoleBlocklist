@@ -3,7 +3,7 @@
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
-# Make sure to also use the extra RegEx list at https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/regex.list, which helps remove regional LG ad domains among other things.
+# Make sure to also use the extra RegEx list at https://perflyst.github.io/PiHoleBlocklist/regex.list, which helps remove regional LG ad domains among other things.
 
 # Panasonic Viera & panny tv
 0077777700140002.myhomescreen.tv
