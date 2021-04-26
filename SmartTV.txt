@@ -113,6 +113,7 @@ ads.samsungads.com
 amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 az43064.vo.msecnd.net
+cdn.samsungcloudsolution.com
 cdn.samsungcloudsolution.net
 configprd.samsungcloudsolution.net
 connecttv.pelmorex.com # weather app tracking
