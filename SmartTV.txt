@@ -80,6 +80,9 @@ sonybivstatic-a.akamaihd.net
 facemap.foldlife.net
 bdcore-apr-lb.bda.ndmdhs.com
 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
+api.cid.samba.tv
+#platform.cid.samba.tv #See Toshiba
+preferences.cid.samba.tv
 
 # LG
 ad.lgappstv.com
