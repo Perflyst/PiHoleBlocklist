@@ -1,5 +1,5 @@
 # Title: Smart-TV Blocklist for Pi-hole
-# Version: 12March2021v3
+# Version: 01July2021v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -335,3 +335,9 @@ platform.cid.samba.tv
 file2fxm.azureedge.net
 7345023508.fxmconnect.com
 7345023508.fxm9485766783.com
+
+# Xioami Mi TV
+mitv.tracking.intl.miui.com
+tracking.intl.miui.com
+data.mistat.intl.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
