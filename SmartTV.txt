@@ -1,5 +1,5 @@
 # Title: Smart-TV Blocklist for Pi-hole
-# Version: 01July2021v1
+# Version: 01July2021v2
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -87,6 +87,9 @@ preferences.cid.samba.tv
 # LG
 ad.lgappstv.com
 ibis.lgappstv.com
+jp.rdx2.lgtvsdp.com
+jp.lgtvsdp.com
+jp.info.lgsmartad.com
 lgad.cjpowercast.com.edgesuite.net
 # ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
 smartclip.com
