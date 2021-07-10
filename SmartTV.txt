@@ -1,5 +1,5 @@
 # Title: Smart-TV Blocklist for Pi-hole
-# Version: 01July2021v2
+# Version: 10July2021v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -65,12 +65,12 @@ x2.vindicosuite.com
 #portal.store.sonyentertainmentnetwork.com
 ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
 ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
-reg.biv.sony.tv
-service.biv.sony.tv
-ssm1.internet.sony.tv
-ssm2.internet.sony.tv
-ssm3.internet.sony.tv
-# update.biv.sony.tv # required for updates
+#reg.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#service.biv.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm1.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm2.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#ssm3.internet.sony.tv # https://github.com/notracking/hosts-blocklists/issues/384
+#update.biv.sony.tv # required for updates
 api-mf1.meta.ndmdhs.com
 b02.black.ndmdhs.com
 bravia.dl.playstation.net
@@ -91,7 +91,7 @@ jp.rdx2.lgtvsdp.com
 jp.lgtvsdp.com
 jp.info.lgsmartad.com
 lgad.cjpowercast.com.edgesuite.net
-# ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
+#ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
 smartclip.com
 smartclip.net
 smartshare.lgtvsdp.com
@@ -113,14 +113,14 @@ ad.nettvservices.com
 
 # Samsung
 abtauthprd.samsungcloudsolution.com
-acr0.samsungcloudsolution.com
+#acr0.samsungcloudsolution.com # https://www.reddit.com/r/oisd_blocklist/comments/m6j6fg/oisd_domain_blocklist/h3hulvq
 ad.samsungadhub.com
 ads.samsungads.com
 amauthprd.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 az43064.vo.msecnd.net
 cdn.samsungcloudsolution.net
-configprd.samsungcloudsolution.net
+#configprd.samsungcloudsolution.net # https://oisd.nl/excludes.php?w=configprd.samsungcloudsolution.net
 connecttv.pelmorex.com # weather app tracking
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 cpu.samsungelectronics.com
@@ -131,7 +131,7 @@ d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store
 d2tnx644ijgq6i.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
 d37ju0xanoz6gh.cloudfront.net
-dev-multiscreen.samsung.com
+#dev-multiscreen.samsung.com # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
 device-metrics-us.amazon.com
 fkp.samsungcloudsolution.com
 fkp.samsungcloudsolution.net
@@ -145,7 +145,7 @@ log-3.samsungacr.com
 log-ingestion.samsungacr.com
 log-ingestion-eu.samsungacr.com
 log.internetat.tv
-multiscreen.samsung.com
+#multiscreen.samsung.com # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
 musicid.samsungcloudsolution.com
 notice.samsungcloudsolution.com
 noticecdn.samsungcloudsolution.com
@@ -169,7 +169,7 @@ samsungadhub.com
 samsungcloudsolution.com
 samsungcloudsolution.net
 samsungqbe.com
-samsungrm.net
+#samsungrm.net # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
 sas.samsungcloudsolution.com
 sca.samsung.com
 sso.internetat.tv # account login
@@ -258,16 +258,16 @@ ad.71i.de
 adv.ettoday.net
 advertising.com
 api.nfl.com
-# apicache.vudu.com # needed for Vudu's app, see issue22
+#apicache.vudu.com # needed for Vudu's app, see issue22
 cdn.smartclip.net
-cdns-content.dzcdn.net
+#cdns-content.dzcdn.net # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
 cert-test.sandbox.google.com
 database01p.anixe.net
 de.ioam.de
 #drscdn.500px.org # blocks 500px on desktop
-# geo.opera.com # blocks opera update
+#geo.opera.com # blocks opera update
 googleads.g.doubleclick.net
-# itv.ard.de # ARD media lib - HBBTV 
+#itv.ard.de # ARD media lib - HBBTV 
 nbc-jite.nbcuni.com
 redbutton-adproxy-lb-prod.redbutton.de
 redbutton-lb-prod.redbutton.de
@@ -285,11 +285,10 @@ xml.opera.com
 #secure.netflix.com                   
 #api-global.netflix.com
 #appboot.netflix.com
-# Netflix playback fails on Humax DTR-T2100 (YouView) STB
-#nrdp.nccp.netflix.com
+#nrdp.nccp.netflix.com # Netflix playback fails on Humax DTR-T2100 (YouView) STB
 ichnaea.netflix.com
 customerevents.netflix.com
-nrdp.prod.ftl.netflix.com
+#nrdp.prod.ftl.netflix.com  # https://oisd.nl/excludes.php?w=nrdp.prod.ftl.netflix.com
 
 
 # Spotify
@@ -335,7 +334,7 @@ a1.resources.foxtel.com.au
 # Toshiba
 events.cid.samba.tv
 platform.cid.samba.tv
-file2fxm.azureedge.net
+#file2fxm.azureedge.net # https://oisd.nl/excludes.php?w=file2fxm.azureedge.net
 7345023508.fxmconnect.com
 7345023508.fxm9485766783.com
 

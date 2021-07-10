@@ -1,5 +1,5 @@
 ! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout's)
-! Version: 01July2021v1
+! Version: 10July2021v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -23,11 +23,11 @@
 ! needed for applications, if blocked gives the error "No internet connection"
 !applicast.ga.sony.net
 !portal.store.sonyentertainmentnetwork.com
-||ssm1.internet.sony.tv^
-||ssm2.internet.sony.tv^
-||reg.biv.sony.tv^
-||service.biv.sony.tv^
-||ssm3.internet.sony.tv^
+!||ssm1.internet.sony.tv^ # https://github.com/notracking/hosts-blocklists/issues/384
+!||ssm2.internet.sony.tv^ # https://github.com/notracking/hosts-blocklists/issues/384
+!||reg.biv.sony.tv^ # https://github.com/notracking/hosts-blocklists/issues/384
+!||service.biv.sony.tv^ # https://github.com/notracking/hosts-blocklists/issues/384
+!||ssm3.internet.sony.tv^ # https://github.com/notracking/hosts-blocklists/issues/384
 ! update.biv.sony.tv^ # required for updates
 ||api-mf1.meta.ndmdhs.com^
 ||b02.black.ndmdhs.com^
@@ -69,27 +69,27 @@
 
 ! Samsung
 ||abtauthprd.samsungcloudsolution.com^
-||acr0.samsungcloudsolution.com^
+!||acr0.samsungcloudsolution.com^ # https://www.reddit.com/r/oisd_blocklist/comments/m6j6fg/oisd_domain_blocklist/h3hulvq
 ||samsungads.com^
 ||amauthprd.samsungcloudsolution.com^
 ||api-hub.samsungyosemite.com^
 ||az43064.vo.msecnd.net^
 ||cdn.samsungcloudsolution.net^
-||configprd.samsungcloudsolution.net^
+!||configprd.samsungcloudsolution.net^ # https://oisd.nl/excludes.php?w=configprd.samsungcloudsolution.net
 ||Coordinator-Production-28516768.us-east-1.elb.amazonaws.com^
 ||d179kwmlpc4o47.cloudfront.net^
 ||d1jwpcr0q4pcq0.cloudfront.net^
 ||d2tnx644ijgq6i.cloudfront.net^
 ||d3mjsomixevyw7.cloudfront.net^
 ||d37ju0xanoz6gh.cloudfront.net^
-||dev-multiscreen.samsung.com^
+!||dev-multiscreen.samsung.com^ # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
 ||device-metrics-us.amazon.com^
 ||fkp.samsungcloudsolution.
 ||game.internetat.tv^
 ||gld.samsungosp.com^
 ||i-stream.pl^
 ||log.internetat.tv^
-||multiscreen.samsung.com^
+!||multiscreen.samsung.com^ # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
 ||musicid.samsungcloudsolution.com^
 ||notice.samsungcloudsolution.com^
 ||noticecdn.samsungcloudsolution.com^
@@ -106,8 +106,8 @@
 ||samsungadhub.com^
 |samsungcloudsolution.com^
 |samsungcloudsolution.net^
-||samsungqbe.com^
-||samsungrm.net^
+|samsungqbe.com^
+!||samsungrm.net^ # https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.whitelist.txt
 ||sas.samsungcloudsolution.com^
 ||sca.samsung.com^
 ||syncplusconfig.s3.amazonaws.com^
@@ -123,8 +123,6 @@
 ||connecttv.pelmorex.com^
 ! Needed for appstore and login on Samsung UE40F5500
 @@||infolink.pavv.co.kr^
-! Required for "TV Plus"
-@@||osb-ussvc.samsungqbe.com^
 !auth.samsungosp.com # If blocked, Samsung accounts will fail to authenticate
 !cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
 !||d1oxlq5h9kq8q5.cloudfront.net^ # app icons in samsung app store
@@ -171,10 +169,10 @@
 ||advertising.com^
 ||api.nfl.com^
 ! apicache.vudu.com # Needed for Vudu app; https://github.com/Perflyst/PiHoleBlocklist/issues/22
-||cdns-content.dzcdn.net^
+!||cdns-content.dzcdn.net^ # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
 ||cert-test.sandbox.google.com^
 ||database01p.anixe.net^
-||de.ioam.de^
+||de.ioam.de^$ctag=device_tv
 ||drscdn.500px.org^$ctag=device_tv
 !|geo.opera.com^| # blocks opera update
 ||googleads.g.doubleclick.net^
@@ -198,7 +196,7 @@
 ||ichnaea.netflix.com^
 ||customerevents.netflix.com^
 !||nrdp.nccp.netflix.com^ # Netflix playback fails on Humax DTR-T2100 (YouView) STB; https://github.com/Perflyst/PiHoleBlocklist/issues/54
-||nrdp.prod.ftl.netflix.com^
+!||nrdp.prod.ftl.netflix.com^ # https://oisd.nl/excludes.php?w=nrdp.prod.ftl.netflix.com
 
 ! Spotify
 !||api-tv.spotify.com^ # required for TV and PS4 spotify app
@@ -241,7 +239,7 @@
 ! Toshiba
 ||events.cid.samba.tv^
 ||platform.cid.samba.tv^
-||file2fxm.azureedge.net^
+!||file2fxm.azureedge.net^ # https://oisd.nl/excludes.php?w=file2fxm.azureedge.net
 ||7345023508.fxmconnect.com^
 ||7345023508.fxm9485766783.com^
 
@@ -250,11 +248,11 @@
 ! Entries based on https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 
 ! Amazon Fire TV (First-party)
-||device-messaging-na.amazon.com^
+!||device-messaging-na.amazon.com^ # https://oisd.nl/excludes.php?w=device-messaging-na.amazon.com
 ||devicemessaging.us-east-1.amazon.com^
 ||fls-*.amazon.com^
 ||mads-eu.amazon.com^
-||mas-sdk.amazon.com^
+!||mas-sdk.amazon.com^ # https://oisd.nl/excludes.php?w=mas-sdk.amazon.com
 ||mas-ext.amazon.com^
 ||aax-eu.amazon-adsystem.com^
 ||msh.amazon.co.uk^
@@ -262,7 +260,7 @@
 ||mobileanalytics.us-east-1.amazonaws.com^
 
 ! Amazon Fire TV (Third-party)
-||config.ioam.de^
+||config.ioam.de^$ctag=device_tv|device_other
 ||secure-eu.imrworldwide.com^
 ||logs1409.xiti.com^
 ||tracksrv.zdf.de^
@@ -271,5 +269,5 @@
 ! Xioami Mi TV
 ||mitv.tracking.intl.miui.com^
 ||tracking.intl.miui.com^
-||data.mistat.intl.xiaomi.com^
+!||data.mistat.intl.xiaomi.com^ # https://oisd.nl/excludes.php?w=data.mistat.intl.xiaomi.com
 ||sdkconfig.ad.intl.xiaomi.com^
