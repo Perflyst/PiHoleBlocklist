@@ -1,5 +1,5 @@
 # Title: Perflyst's SmartTV Blocklist for Pi-hole - RegEx extension
-# Version: 22May2020v1
+# Version: 02October2021v1
 
 # LG
 (^|\.)ibs\.lgappstv\.com
@@ -12,11 +12,11 @@
 (^|\.)giraffic\.com$
 (^|\.)internetat\.tv$
 (^|\.)pavv\.co\.kr$
-(^|\.)samsungcloudcdn\.com$
-(^|\.)samsungcloudsolution\.com$
+# (^|\.)samsungcloudcdn\.com$ # prevents updates
+# (^|\.)samsungcloudsolution\.com$ # prevents internet connection
 (^|\.)samsungcloudsolution\.net$
 (^|\.)samsungelectronics\.com$
-(^|\.)samsungotn\.net$
+# (^|\.)samsungotn\.net$ # prevents updates
 (^|\.)samsungrm\.net$
 
 # Vizio
