@@ -167,7 +167,7 @@
 ||ad.71i.de^
 ||adv.ettoday.net^
 ||advertising.com^
-||api.nfl.com^
+!||api.nfl.com^ # Needed for NFL Fantasy Football App
 ! apicache.vudu.com # Needed for Vudu app; https://github.com/Perflyst/PiHoleBlocklist/issues/22
 !||cdns-content.dzcdn.net^ # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
 ||cert-test.sandbox.google.com^
