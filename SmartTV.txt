@@ -257,7 +257,7 @@ hbbtv.3sat.de
 ad.71i.de
 adv.ettoday.net
 advertising.com
-api.nfl.com
+#api.nfl.com # required for NFL Fantasy Football App
 #apicache.vudu.com # needed for Vudu's app, see issue22
 cdn.smartclip.net
 #cdns-content.dzcdn.net # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
