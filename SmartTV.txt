@@ -343,3 +343,7 @@ mitv.tracking.intl.miui.com
 tracking.intl.miui.com
 data.mistat.intl.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
+
+# Android TV (including Nvidia Shield TV)
+androidtvchannels-pa.googleapis.com
+androidtvwatsonfe-pa.googleapis.com
