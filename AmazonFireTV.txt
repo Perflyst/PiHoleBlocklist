@@ -21,6 +21,7 @@ mobileanalytics.us-east-1.amazonaws.com
 #cortana-gateway.amazon.com
 #api.amazonalexa.com
 #avs.eu.amazonalexa.com
+d3p8zr0ffa9t17.cloudfront.net
 
 # updates
 #softwareupdates.amazon.com
