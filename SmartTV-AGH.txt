@@ -1,5 +1,5 @@
 ! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout's)
-! Version: 10July2021v1
+! Version: 15December2021v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -55,7 +55,8 @@
 ||smartshare.lgtvsdp.com^
 ||rdx2.lgtvsdp.com^
 ! For TVs that try to connect to several garbled letter combinations
-/^[a-z]{7,15}$/
+/^[a-z]{11,15}$/
+/^[a-z]{7,10}$/$ctag=device_tv
 ! Used in malware exploits
 ||aic-ngfts.lge.com^
 
@@ -123,6 +124,8 @@
 ||connecttv.pelmorex.com^
 ! Needed for appstore and login on Samsung UE40F5500
 @@||infolink.pavv.co.kr^
+! https://github.com/Perflyst/PiHoleBlocklist/issues/112
+||adgrx.com^
 !auth.samsungosp.com # If blocked, Samsung accounts will fail to authenticate
 !cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
 !||d1oxlq5h9kq8q5.cloudfront.net^ # app icons in samsung app store
