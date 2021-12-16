@@ -125,7 +125,6 @@ connecttv.pelmorex.com # weather app tracking
 Coordinator-Production-28516768.us-east-1.elb.amazonaws.com
 cpu.samsungelectronics.com
 d179kwmlpc4o47.cloudfront.net
-d179kwmlpc4o47.cloudfront.net
 d1jwpcr0q4pcq0.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net # app icons in samsung app store
 d2tnx644ijgq6i.cloudfront.net
@@ -190,14 +189,9 @@ zpu.samsungelectronics.com
 xpu.samsungelectronics.com
 ypu.samsungelectronics.com
 vd.contents.prod.eu.s3.amazonaws.com
-log-ingestion-eu.samsungacr.com
 data.arqiva.tv
 cloud.arqiva.tv
-ad.samsungadhub.com
 ads.aimitv.com
-d37ju0xanoz6gh.cloudfront.net
-rd.samsungadhub.com
-samsungadhub.com
 samsungads.com
 gamespromotion.samsungcloudsolution.com
 # https://github.com/Perflyst/PiHoleBlocklist/issues/112
@@ -263,7 +257,6 @@ advertising.com
 #apicache.vudu.com # needed for Vudu's app, see issue22
 cdn.smartclip.net
 #cdns-content.dzcdn.net # https://oisd.nl/excludes.php?w=cdns-content.dzcdn.net
-cert-test.sandbox.google.com
 database01p.anixe.net
 de.ioam.de
 #drscdn.500px.org # blocks 500px on desktop
