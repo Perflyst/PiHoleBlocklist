@@ -1,5 +1,5 @@
 # Title: Smart-TV Blocklist for Pi-hole
-# Version: 10July2021v1
+# Version: 15December2021v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -98,7 +98,7 @@ smartshare.lgtvsdp.com
 us.ad.lgsmartad.com
 us.ibs.lgappstv.com
 us.info.lgsmartad.com
-us.lgtvsdp.com
+#us.lgtvsdp.com # #117
 us.rdx2.lgtvsdp.com
 yumenetworks.com
 aic-ngfts.lge.com
@@ -137,7 +137,7 @@ fkp.samsungcloudsolution.com
 fkp.samsungcloudsolution.net
 game.internetat.tv
 gld.samsungosp.com
-gpm.samsungqbe.com
+#gpm.samsungqbe.com # Numerous connection problems, e.g. #82
 i-stream.pl
 log-1.samsungacr.com
 log-2.samsungacr.com
@@ -200,6 +200,8 @@ rd.samsungadhub.com
 samsungadhub.com
 samsungads.com
 gamespromotion.samsungcloudsolution.com
+# https://github.com/Perflyst/PiHoleBlocklist/issues/112
+tvx.adgrx.com
 #auth.samsungosp.com # if blocked, samsung accounts will fail to authenticate
 #cdn.samsungcloudsolution.com # System update check on Samsung UE40F5500
 #infolink.pavv.co.kr # Needed for appstore and login on Samsung UE40F5500

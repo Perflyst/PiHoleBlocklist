@@ -6,7 +6,7 @@
 (^|\.)lgsmartad\.com
 (^|\.)smartshare\.lgtvsdp\.com
 (^|\.)rdx2\.lgtvsdp\.com
-^[a-z]{7,15}$
+^[a-z]{11,15}$
 
 # Samsung
 (^|\.)giraffic\.com$
