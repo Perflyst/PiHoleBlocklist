@@ -1,8 +1,9 @@
 ! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout's)
-! Version: 15December2021v1
+! Version: 16December2021v1
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
+! This list version is for AdGuard Home only. If you use Pi-Hole, you must instead use https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt and https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/regex.list
 
 ! Multiple brands
 ||smartclip.com^
