@@ -1,5 +1,5 @@
 # Title: Smart-TV Blocklist for Pi-hole
-# Version: 15December2021v1
+# Version: 6March2022v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -282,6 +282,7 @@ trvdp.com
 tv-static.scdn.co
 #tv.deezer.com # Breaks Deezer's smart-TV apps.
 xml.opera.com
+api.thetake.com # https://thetake.ai/
 
 # Netflix
 # secure, api-global, and appboot break Netflix
