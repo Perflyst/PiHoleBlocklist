@@ -319,6 +319,7 @@ unified-ter-na.hismarttv.com
 # These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 api.us.hismarttv.com
 api.euro.hismarttv.com
+api.eu.hismarttv.com
 
 # SiliconDust HDHomeRun
 #tuner-api.hdhomerun.com # required for firmware update
