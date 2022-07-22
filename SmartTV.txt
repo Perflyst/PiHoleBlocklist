@@ -19,6 +19,8 @@ collect-us-fy2017.myhomescreen.tv
 collect-us-fy2018.myhomescreen.tv
 collect-us-fy2019.myhomescreen.tv
 collect-us-fy2020.myhomescreen.tv
+collect-us-fy2021.myhomescreen.tv
+collect-us-fy2022.myhomescreen.tv
 
 collect-eu-fy2014.myhomescreen.tv
 collect-eu-fy2015.myhomescreen.tv
@@ -27,6 +29,8 @@ collect-eu-fy2016.myhomescreen.tv
 collect-eu-fy2018.myhomescreen.tv
 collect-eu-fy2019.myhomescreen.tv
 collect-eu-fy2020.myhomescreen.tv
+collect-eu-fy2021.myhomescreen.tv
+collect-eu-fy2022.myhomescreen.tv
 
 usage-eu-fy2014.myhomescreen.tv
 usage-eu-fy2015.myhomescreen.tv
@@ -35,6 +39,8 @@ usage-eu-fy2017.myhomescreen.tv
 usage-eu-fy2018.myhomescreen.tv
 usage-eu-fy2019.myhomescreen.tv
 usage-eu-fy2020.myhomescreen.tv
+usage-eu-fy2021.myhomescreen.tv
+usage-eu-fy2022.myhomescreen.tv
 
 usage-us-fy2014.myhomescreen.tv
 usage-us-fy2015.myhomescreen.tv
@@ -43,6 +49,8 @@ usage-us-fy2017.myhomescreen.tv
 usage-us-fy2018.myhomescreen.tv
 usage-us-fy2019.myhomescreen.tv
 usage-us-fy2020.myhomescreen.tv
+usage-us-fy2021.myhomescreen.tv
+usage-us-fy2022.myhomescreen.tv
 
 #mhc-ajax-eu.myhomescreen.tv # internet connection test
 #mhc-ajax-eu-s2.myhomescreen.tv # internet connection test
