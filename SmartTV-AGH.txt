@@ -1,5 +1,5 @@
-! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout's)
-! Version: 6March2022v1
+! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout)
+! Version: 13July2023v2
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -58,7 +58,7 @@
 ||rdx2.lgtvsdp.com^
 ||lgtvcommon.com^
 ! For TVs that try to connect to several garbled letter combinations
-/^[a-z]{11,15}$/
+/^[a-rt-z][a-z]{10,14}$/
 /^[a-z]{7,10}$/$ctag=device_tv
 ! Used in malware exploits
 ||aic-ngfts.lge.com^
