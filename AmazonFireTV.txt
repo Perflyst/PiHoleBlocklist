@@ -10,7 +10,7 @@ mas-sdk.amazon.com
 
 aax-eu.amazon-adsystem.com
 
-msh.amazon.co.uk
+#msh.amazon.co.uk
 
 # required for app installation / updates
 # amazonadsi-a.akamaihd.net
