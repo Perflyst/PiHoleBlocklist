@@ -6,7 +6,7 @@
 (^|\.)lgsmartad\.com
 (^|\.)smartshare\.lgtvsdp\.com
 (^|\.)rdx2\.lgtvsdp\.com
-^[a-z][a-rt-z]{10,14}$
+^[a-rt-z][a-z]{10,14}$
 (^|\.)lgtvcommon\.com
 
 # Samsung
