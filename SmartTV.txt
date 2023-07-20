@@ -1,5 +1,5 @@
 # Title: Smart-TV Blocklist for Pi-hole
-# Version: 6March2022v1
+# Version: 13July2023v1
 # Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 # Please help with collecting domains!
 # It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -91,6 +91,7 @@ tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 api.cid.samba.tv
 #platform.cid.samba.tv #See Toshiba
 preferences.cid.samba.tv
+bravia-cfgdst-ore-pro.bda.ndmdhs.com
 
 # LG
 ad.lgappstv.com
@@ -110,6 +111,14 @@ us.info.lgsmartad.com
 us.rdx2.lgtvsdp.com
 yumenetworks.com
 aic-ngfts.lge.com
+us.cdpbeacon.lgtvcommon.com
+us.cdpsvc.lgtvcommon.com
+us.homeprv.lgtvcommon.com
+us.nudge.lgtvcommon.com
+us.rdl.lgtvcommon.com
+us.recommend.lgtvcommon.com
+us.lgsmartad.com
+us.service.lgtvcommon.com
 
 # Philips
 #deviceportal.nettvservices.com # needed for apps
@@ -161,7 +170,7 @@ oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
 prderrordumphsm.samsungcloudsolution.com
 openapi.samsung.com
-osb-apps.samsungqbe.com
+osb-apps-v2.samsungqbe.com
 osb-krsvc.samsungqbe.com
 osb-eusvc.samsungqbe.com
 osb.samsungqbe.com
@@ -228,6 +237,7 @@ cooper.logs.roku.com
 liberty.logs.roku.com
 display.ravm.tv
 ravm.tv
+mobile.logs.roku.com
 
 # Vizio
 # Required for Vizio smart tv features
@@ -283,6 +293,13 @@ tv-static.scdn.co
 #tv.deezer.com # Breaks Deezer's smart-TV apps.
 xml.opera.com
 api.thetake.com # https://thetake.ai/
+control-zoo-dai-default.tvinteractive.tv
+mcp.tvinteractive.tv
+control2.tvinteractive.tv
+control.tvinteractive.tv
+tvmeta-dynamic.tvinteractive.tv
+alphonso.tv
+tv.ads.spotx.tv
 
 # Netflix
 # secure, api-global, and appboot break Netflix
