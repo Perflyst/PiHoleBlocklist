@@ -1,5 +1,5 @@
-! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout's)
-! Version: 6March2022v1
+! Title: Smart-TV Blocklist for AdGuard Home (by Dandelion Sprout)
+! Version: 13July2023v2
 ! Description: This is a blocklist to block smart-TVs sending metadata back home, sometimes with the added benefit of blocking interface ads for apps and movie services.
 ! Please help to collect domains!
 ! It could occur that the TV fails to receive new updates, or that other apps or services no longer work. Please report such an incident.
@@ -42,6 +42,7 @@
 ||api.cid.samba.tv^
 ! platform.cid.samba.tv^ # see Toshiba
 ||preferences.cid.samba.tv^
+||bravia-cfgdst-ore-pro.bda.ndmdhs.com^
 
 ! LG
 ||ad.lgappstv.com^
@@ -55,6 +56,7 @@
 |lgtvsdp.com^
 ||smartshare.lgtvsdp.com^
 ||rdx2.lgtvsdp.com^
+||lgtvcommon.com^
 ! For TVs that try to connect to several garbled letter combinations
 /^[a-z]{7,10}$/$ctag=device_tv
 ! Used in malware exploits
@@ -120,6 +122,7 @@
 ||data.arqiva.tv^
 ||cloud.arqiva.tv^
 ||gamespromotion.samsungcloudsolution.com^
+||osb-apps-v2.samsungqbe.com^
 ! Weather app tracking
 ||connecttv.pelmorex.com^
 ! Needed for appstore and login on Samsung UE40F5500
@@ -164,6 +167,7 @@
 @@||hbbtv.zdf.de^
 @@||hbbtv.prosieben.de^
 @@||hbbtv.redbutton.de^
+@@||hbbtv.kika.de^
 
 ! Other useless connections from Smart-TV
 ||2mdn.net^
@@ -191,6 +195,13 @@
 !tv.deezer.com # Breaks Deezer's smart-TV apps.
 ||xml.opera.com^$ctag=device_tv
 ||api.thetake.com^ # https://thetake.ai/
+||control-zoo-dai-default.tvinteractive.tv^
+||mcp.tvinteractive.tv^
+||control2.tvinteractive.tv^
+||control.tvinteractive.tv^
+||tvmeta-dynamic.tvinteractive.tv^
+||alphonso.tv^
+||ads.spotx.tv^
 
 ! Netflix
 ! secure., api-global., and appboot. break Netflix
@@ -257,9 +268,9 @@
 ||fls-*.amazon.com^
 ||mads-eu.amazon.com^
 !||mas-sdk.amazon.com^ # https://oisd.nl/excludes.php?w=mas-sdk.amazon.com
-||mas-ext.amazon.com^
+!||mas-ext.amazon.com^ (https://github.com/Perflyst/PiHoleBlocklist/issues/138)
 ||aax-eu.amazon-adsystem.com^
-||msh.amazon.co.uk^
+!||msh.amazon.co.uk^ (https://github.com/Perflyst/PiHoleBlocklist/issues/136)
 ! amazonadsi-a.akamaihd.net^ # FireTV and Tablet app installation / updates
 ||mobileanalytics.us-east-1.amazonaws.com^
 
