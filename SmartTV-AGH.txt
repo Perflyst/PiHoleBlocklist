@@ -98,6 +98,7 @@
 ||oempprd.samsungcloudsolution.
 ||prderrordumphsm.samsungcloudsolution.com^
 ||openapi.samsung.com^
+||samsungiotcloud.com^
 ||pavv.co.kr^
 ||pipeaota.com^
 ||premium-videos.telly.com^
