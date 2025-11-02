@@ -21,9 +21,6 @@ collect-us-fy2019.myhomescreen.tv
 collect-us-fy2020.myhomescreen.tv
 collect-us-fy2021.myhomescreen.tv
 collect-us-fy2022.myhomescreen.tv
-collect-us-fy2023.myhomescreen.tv
-collect-us-fy2024.myhomescreen.tv
-collect-us-fy2025.myhomescreen.tv
 
 collect-eu-fy2014.myhomescreen.tv
 collect-eu-fy2015.myhomescreen.tv
@@ -34,9 +31,6 @@ collect-eu-fy2019.myhomescreen.tv
 collect-eu-fy2020.myhomescreen.tv
 collect-eu-fy2021.myhomescreen.tv
 collect-eu-fy2022.myhomescreen.tv
-collect-eu-fy2023.myhomescreen.tv
-collect-eu-fy2024.myhomescreen.tv
-collect-eu-fy2025.myhomescreen.tv
 
 usage-eu-fy2014.myhomescreen.tv
 usage-eu-fy2015.myhomescreen.tv
@@ -47,9 +41,6 @@ usage-eu-fy2019.myhomescreen.tv
 usage-eu-fy2020.myhomescreen.tv
 usage-eu-fy2021.myhomescreen.tv
 usage-eu-fy2022.myhomescreen.tv
-usage-eu-fy2023.myhomescreen.tv
-usage-eu-fy2024.myhomescreen.tv
-usage-eu-fy2025.myhomescreen.tv
 
 usage-us-fy2014.myhomescreen.tv
 usage-us-fy2015.myhomescreen.tv
@@ -60,9 +51,6 @@ usage-us-fy2019.myhomescreen.tv
 usage-us-fy2020.myhomescreen.tv
 usage-us-fy2021.myhomescreen.tv
 usage-us-fy2022.myhomescreen.tv
-usage-us-fy2023.myhomescreen.tv
-usage-us-fy2024.myhomescreen.tv
-usage-us-fy2025.myhomescreen.tv
 
 #mhc-ajax-eu.myhomescreen.tv # internet connection test
 #mhc-ajax-eu-s2.myhomescreen.tv # internet connection test
@@ -277,6 +265,7 @@ stats.hbbtv.smartclip.net
 hbbtv.superrtl.de
 p-hbbtv.superrtl.de
 hbbtv.3sat.de
+app.hbbtv.hse24.com
 
 # Other useless connections from Smart-TV
 2mdn.net
@@ -312,6 +301,8 @@ control.tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
 alphonso.tv
 tv.ads.spotx.tv
+hse24.tvtelemetrie.de
+hse-ctv.com
 
 # Netflix
 # secure, api-global, and appboot break Netflix
