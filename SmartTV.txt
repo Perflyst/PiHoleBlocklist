@@ -265,6 +265,7 @@ stats.hbbtv.smartclip.net
 hbbtv.superrtl.de
 p-hbbtv.superrtl.de
 hbbtv.3sat.de
+app.hbbtv.hse24.com
 
 # Other useless connections from Smart-TV
 2mdn.net
@@ -300,6 +301,8 @@ control.tvinteractive.tv
 tvmeta-dynamic.tvinteractive.tv
 alphonso.tv
 tv.ads.spotx.tv
+hse24.tvtelemetrie.de
+hse-ctv.com
 
 # Netflix
 # secure, api-global, and appboot break Netflix
