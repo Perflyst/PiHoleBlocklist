@@ -119,6 +119,13 @@ us.rdl.lgtvcommon.com
 us.recommend.lgtvcommon.com
 us.lgsmartad.com
 us.service.lgtvcommon.com
+# Gamers Nexus - LG Smart TV spying
+aic.cdpsvc.lgtvcommon.com
+aic.cdpbeacon.lgtvcommon.com
+us.nextlgsdp.com # other regions also needend? de.nextlgsdp.com? i cant see that a lot of different servers are existing .de, .it, .br. see: https://github.com/Perflyst/PiHoleBlocklist/issues/167
+ngfts.nextlgsdp.com
+aic.rdl.lgtvcommon.com
+aic-gfts.nextlgsdp.com
 
 # Philips
 #deviceportal.nettvservices.com # needed for apps
