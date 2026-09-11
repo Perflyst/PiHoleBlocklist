@@ -373,6 +373,15 @@ yt.nextlgsdp.com
 za.nextlgsdp.com
 zm.nextlgsdp.com
 zw.nextlgsdp.com
+de.emp.lgsmartplatform.com
+de.info.lgsmartad.com
+eic.api.lgtviot.com
+eic.lgtviot.com
+eic.nudge.lgtvcommon.com
+eic.tv.wiselg.com
+eic.wiseconfig.lgtvcommon.com
+lgsmartad.com
+lgtvsdp.com
 
 
 # Philips
