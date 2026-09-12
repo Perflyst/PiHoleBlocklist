@@ -116,6 +116,8 @@ us.cdpsvc.lgtvcommon.com
 us.homeprv.lgtvcommon.com
 us.nudge.lgtvcommon.com
 us.rdl.lgtvcommon.com
+rdth.lgtvcommon.com
+us.rdth.lgtvcommon.com
 us.recommend.lgtvcommon.com
 us.lgsmartad.com
 us.service.lgtvcommon.com
