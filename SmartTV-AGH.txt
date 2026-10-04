@@ -153,6 +153,26 @@
 !||api.vizio.com
 !||images.vizio.com
 !||announcements.vizio.com # No reason to block this
+!||catalog-prod.smartcasttv.com
+!||platform.vizio.com
+||prod.video.smartcasttv.com
+||ipa.atiads.tv
+||vizio.adsmeasurement.com
+||watchlist-prod.smartcasttv.com
+||avkt1jiwvpmcn-ats.iot.us-east-1.amazonaws.com
+!||apim-vizio-ecommerce-prod.vizio.com # blocking this removes account info
+||o401343.ingest.us.sentry.io
+||vizio-dtv-f7e2fe6f.prod.partner.netflix.net # netflix specific?
+||threeplr-am0s6sbnzw4bt-0.na.api.amazonvideo.com # prime video specific?
+||fflags.lokistore.vzolab.com
+||scfs2.vizio.com
+||occ-0-853-851.1.nflxso.net
+||fflags.lokistore.vzolab.com
+||prod.uam.plat-svcs.vizio.com
+||prod.uam-identity-svc.plat-svcs.vizio.com
+||osu.dlm.vudip.vizio.com
+||kinesis.us-west-2.amazonaws.com # not sure what blocking even does?
+||firehose.us-east-2.amazonaws.com # not sure what blocking even does?
 
 ! HBBTV
 ||hbbtv-1.eurosport.com^
