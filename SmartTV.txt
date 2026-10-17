@@ -597,6 +597,16 @@ api.us.hismarttv.com
 api.euro.hismarttv.com
 api.eu.hismarttv.com
 
+# Hisense VIDAA OS (newer Hisense TVs): ACR and in-launcher/FAST-channel ad endpoints, observed in Pi-hole logs of a
+# Hisense Vision TV (2026-10). acr.unruly.co is the ACR (automatic content recognition) vendor. Blocked for a week
+# with Netflix, YouTube, Prime Video and Disney+ still working.
+acr.unruly.co
+gssaiad.aniview.com
+ssai.aniview.com
+static.teads.tv
+t2.pem-teads.tv
+stream-us-east-1.getpublica.com
+
 # SiliconDust HDHomeRun
 #tuner-api.hdhomerun.com # required for firmware update
 #location-api.hdhomerun.com # required for firmware update

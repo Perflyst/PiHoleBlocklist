@@ -236,6 +236,14 @@
 ! These may be needed for software/firmware updates, not sure if it's one or both but the first one tries thousands of times a day to connect.
 ||api.*.hismarttv.com^
 
+! Hisense VIDAA OS: ACR and in-launcher/FAST-channel ad endpoints (observed 2026-10; blocked a week with Netflix, YouTube, Prime Video and Disney+ still working)
+||acr.unruly.co^
+||gssaiad.aniview.com^
+||ssai.aniview.com^
+||static.teads.tv^
+||t2.pem-teads.tv^
+||stream-us-east-1.getpublica.com^
+
 ! SiliconDust HDHomeRun
 !||tuner-api.hdhomerun.com^ # required for firmware update
 !||location-api.hdhomerun.com^ # required for firmware update
