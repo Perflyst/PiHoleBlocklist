@@ -23,6 +23,10 @@
 # Vizio
 (\.|^)tvinteractive\.tv$
 
+# Hisense VIDAA: ACR audio-fingerprint stream (Nexxen). Registration is acr.unruly.co; the stream goes to
+# numbered per-region hosts such as 38.fp.gb.acr.unruly.co (MQTT over TLS, port 8883), which exact-match lists miss.
+(^|\.)acr\.unruly\.co$
+
 # Other
 # (^|\.)myhomescreen\.tv$ # can produce false positives, rather block individual domains
 ^api\..*\.hismarttv\.com$
